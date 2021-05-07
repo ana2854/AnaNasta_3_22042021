@@ -1,6 +1,29 @@
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-}
 
+@media screen and (max-width:667px) {
+
+    .wrapper{
+        max-width: 667px;
+        margin: 0 2%;
+
+        background-color: rgb(243, 141, 141);
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+
+        max-width: 667px;
+
+
+    }
+
+    .restaurants {
+        border: 3px solid black;
+
+        width: 100%;
+    }
+
+    
+    
+}
