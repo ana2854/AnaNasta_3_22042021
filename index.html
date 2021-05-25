@@ -3,6 +3,8 @@
                 <head>
                     <meta charset="utf-8">
 
+
+                    <!--Lien feuille css-->
                     <link rel="stylesheet" type="text/css" href="styles.css">
 
 
@@ -12,6 +14,10 @@
 
                     <!--Lien pour ajouter les icones dans le site-->
                    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+                    <!--Lien Police Shrikhand-->
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
                    <!--Police Roboto-->
                    <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,6 +29,7 @@
                     <title>Ohmyfood!Paris </title>
 
                 </head>
+
 <body>
 
                 <header>
@@ -32,11 +39,14 @@
             
                 </header>
 
+
+
                 <section class="accroche">
+
                     <h1 class="accroche__titre"> Réservez le menu qui vous convient</h1>
                     <p class="accroche__p">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
 
-                    <button class="accroche__button">Explorer nos restaurants</button>
+                    <button class="accroche__boutton">Explorer nos restaurants</button>
 
 
                 </section>
@@ -56,42 +66,52 @@
      
 
         <section class="restaurants">
-                        <h1 class="restaurants__titre">Restaurants</h1>
+                        <h1 class="restaurants__titreAccueil">Restaurants</h1>
                         
-                        <div class="la-palette-du-gout">
+                        <div class="palette-du-gout">
                             <!--banniere "nouveau" sur l'image palette du gout-->
 
                            <!-- <img src="img/restaurants/la-palette-du-gout.jpg" alt="La palette du goût">-->
 
-                            <a href="la-palette-du-gout.html"><h4>La palette du goût </h4></a>
-                            <p>Ménilmontant</p><i class="far fa-heart"></i>
+                            <a href="la-palette-du-gout.html"><h4 class="palette-du-gout__titre">La palette du goût </h4></a>
+                            <p>Ménilmontant</p>
+                            
+                            <div class="palette-du-gout__logo"> <i class="far fa-heart"></i></div>
+                           
 
                         </div>
 
 
-                        <div class="la-note-enchantee">
+                        <div class="note-enchantee">
                             <!--bannière "nouveau sur la note enchantée"-->
 
                             <!--<img src="img/restaurants/la-note-enchantee.jpg" alt="La note enchantée">-->
-                           <a href="la-note-enchantee.html"><h4>La note enchantée</h4></a> 
-                            <p>Charonne</p><i class="far fa-heart"></i> 
+                           <a href="la-note-enchantee.html"><h4 class="note-enchantee__titreAccueil">La note enchantée</h4></a> 
+                            <p>Charonne</p>
+                            
+                            <div class="note-enchantee__logo"><i class="far fa-heart"></i></div> 
 
                         </div>
 
 
-                        <div class="a-la-francaise"> 
+                        <div class="francaise"> 
 
                             <!--<img src="img/restaurants/a-la-francaise.jpg" alt="A la française">-->
-                           <a href="a-la-francaise.html"> <h4>À la française</h4></a>
-                            <p>Cité Rouge</p><i class="far fa-heart"></i>
+                           <a href="a-la-francaise.html"> <h4 class="francaise__titreAccueil">À la française</h4></a>
+                            <p>Cité Rouge</p>
+                            
+                            <div class="francaise__logo"><i class="far fa-heart"></i></div>
+
                         </div>
 
 
-                        <div class="le-delice-des-sens">
+                        <div class="delice-des-sens">
                             
                             <!--<img src="img/restaurants/le-delice-des-sens.jpg" alt="Le délice des sens">-->
-                            <a href="le-delice-des-sens.html"><h4>Le délice des sens</h4></a>
-                            <p>Folie-Méricourt</p><i class="far fa-heart"></i>
+                            <a href="le-delice-des-sens.html"><h4 class="delice-des-sens__titreAccueil">Le délice des sens</h4></a>
+                            <p>Folie-Méricourt</p>
+                            
+                            <div class="delice-des-sens__logo"><i class="far fa-heart"></i></div>
 
 
 
@@ -103,7 +123,10 @@
 
         <footer>
 
-            <img src="img/logo/omf.svg" alt="Logo Ohmyfood">
+            <div class="footer__logo">
+                <img src="img/logo/omf.svg" alt="Logo Ohmyfood">
+            </div>
+            
             <p><i class="fas fa-utensils"></i>Proposer un restaurant</p>
             <p><i class="fas fa-hands-helping"></i>Devenir partenaire</p>
             <p>Mentions légales</p>
