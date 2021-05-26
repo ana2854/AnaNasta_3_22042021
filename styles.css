@@ -1,7 +1,7 @@
 @media screen and (max-width: 667px) {
-  .wrapper, footer {
+  .wrapper {
     max-width: 667px;
-    margin: 0 2%;
+    margin: 0 1%;
     background-color: #fdc1c1;
   }
   body {
@@ -104,8 +104,16 @@
   .nav__p1, .nav__p2, .nav__p3 {
     text-align: center;
     padding: 28px 28px;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: #dad0d0;
+  }
+  .restaurants {
+    background-color: #dad0d0;
+  }
+  footer {
+    background-color: rgba(87, 79, 79, 0.918);
+    color: white;
+    padding: 17px 10px 17px 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
