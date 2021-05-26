@@ -30,7 +30,7 @@
     }
 
     header img {
-         width: 35%;
+         width: 40%;
     }
 
     .header__logo {
@@ -84,11 +84,12 @@
 
     .accroche__bouton {
 
-        padding:10px 15px 10px 15px;
+        padding:12px 20px 12px 20px;
         border-radius: 20px;
         color:white;
         font-weight: bold;
         background-color: blueviolet;
+        margin: 10px 0 25px 0;
     }
 
 
@@ -100,6 +101,23 @@
         border: 3px solid black;
 
         width: 100%;
+    }
+
+    nav {
+        background-color: white;
+        padding: 25px 0 25px 0;
+
+
+        border: 1px solid black;
+    }
+
+
+    .nav__p1, .nav__p2, .nav__p3 {
+
+        text-align: center;
+        padding: 28px 28px;
+        border-radius: 15px;
+        background-color:rgb(218, 208, 208);
     }
 
 

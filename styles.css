@@ -24,7 +24,7 @@
     text-align: center;
   }
   header img {
-    width: 35%;
+    width: 40%;
   }
   .header__logo {
     background-color: white;
@@ -82,11 +82,12 @@
     margin: 15px;
   }
   .accroche__bouton {
-    padding: 10px 15px 10px 15px;
+    padding: 12px 20px 12px 20px;
     border-radius: 20px;
     color: white;
     font-weight: bold;
     background-color: blueviolet;
+    margin: 10px 0 25px 0;
   }
   .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
     font-family: 'Shrikhand', cursive;
@@ -94,6 +95,17 @@
   .restaurants {
     border: 3px solid black;
     width: 100%;
+  }
+  nav {
+    background-color: white;
+    padding: 25px 0 25px 0;
+    border: 1px solid black;
+  }
+  .nav__p1, .nav__p2, .nav__p3 {
+    text-align: center;
+    padding: 28px 28px;
+    border-radius: 15px;
+    background-color: #dad0d0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
