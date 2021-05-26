@@ -10,11 +10,25 @@
     max-width: 667px;
     background-color: cornflowerblue;
   }
-  header, .accroche {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
   }
   .header__logo {
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
     background-color: white;
+    padding: 10px;
+  }
+  .accroche {
+    text-align: center;
   }
   .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
     font-family: 'Shrikhand', cursive;
