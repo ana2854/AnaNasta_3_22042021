@@ -1,37 +1,4 @@
-
-
-@media screen and (max-width:667px) {
-
-    .wrapper{
-        max-width: 667px;
-        margin: 0 2%;
-
-        background-color: rgb(253, 193, 193);
-    }
-
-    body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 15px;
-
-        max-width: 667px;
-
-        background-color:cornflowerblue;
-
-    }
-
-    .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
-    font-family: 'Shrikhand', cursive;
-    } 
-
-    .restaurants {
-        border: 3px solid black;
-
-        width: 100%;
-    }
-
-    
-
-
-    
-    
+body {
+  background-color: black;
 }
+/*# sourceMappingURL=styles.css.map */
