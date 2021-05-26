@@ -29,8 +29,6 @@
   .header__logo {
     background-color: white;
     padding: 12px;
-    -webkit-box-shadow: 0 0 -8px 0 #272a2c;
-            box-shadow: 0 0 -8px 0 #272a2c;
   }
   .header__map {
     -webkit-box-flex: 100%;
@@ -92,10 +90,6 @@
   .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
     font-family: 'Shrikhand', cursive;
   }
-  .restaurants {
-    border: 3px solid black;
-    width: 100%;
-  }
   nav {
     background-color: white;
     padding: 25px 0 25px 0;
@@ -109,11 +103,23 @@
   }
   .restaurants {
     background-color: #dad0d0;
+    padding: 25px 0 55px 0;
+  }
+  .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+  }
+  footer img {
+    width: 32%;
+  }
+  .footer__logo {
+    -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
   }
   footer {
     background-color: rgba(87, 79, 79, 0.918);
     color: white;
-    padding: 17px 10px 17px 10px;
+    padding: 5px 10px 25px 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

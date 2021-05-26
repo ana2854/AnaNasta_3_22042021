@@ -37,7 +37,6 @@
        
         background-color:white;
         padding: 12px;
-        box-shadow: 0 0 -8px 0 #272a2c;
            
     }
 
@@ -97,11 +96,7 @@
     font-family: 'Shrikhand', cursive;
     } 
 
-    .restaurants {
-        border: 3px solid black;
-
-        width: 100%;
-    }
+    
 
     nav {
         background-color: white;
@@ -123,13 +118,32 @@
 
     .restaurants {
         background-color: rgb(218, 208, 208);
+        padding: 25px 0 55px 0;
+
+    }
+
+    .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+        background-color: white;
+        border-radius: 0 0 15px 15px;
+
+    }
+
+    footer img {
+        width: 32%;
+    }
+
+    .footer__logo {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
     }
 
     footer {
         background-color: rgba(87, 79, 79, 0.918);
         color: white;
-        padding: 17px 10px 17px 10px;
+        padding: 5px 10px 25px 10px;
     }
+
+
+   
 
 
     
