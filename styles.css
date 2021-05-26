@@ -93,7 +93,6 @@
   nav {
     background-color: white;
     padding: 25px 0 25px 0;
-    border: 1px solid black;
   }
   .nav__p1, .nav__p2, .nav__p3 {
     text-align: center;
@@ -140,6 +139,13 @@
     background-color: rgba(87, 79, 79, 0.918);
     color: white;
     padding: 5px 10px 25px 10px;
+  }
+  .headerCuisine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    padding: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
