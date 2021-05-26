@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     max-width: 667px;
-    background-color: cornflowerblue;
+    background-color: #457de4;
   }
   header {
     display: -webkit-box;
@@ -105,10 +105,18 @@
     background-color: #dad0d0;
     padding: 25px 0 55px 0;
   }
+  .restaurants img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
   .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
     background-color: white;
     border-radius: 0 0 15px 15px;
-    padding: 0 0 0 10px;
+    border: 1px solid black;
+  }
+  .restaurants div > .p {
+    padding: 0 0 0 15px;
   }
   .restaurants div > a {
     text-decoration: none;
@@ -119,6 +127,7 @@
   }
   footer img {
     width: 32%;
+    padding: 15px 0 0 0;
   }
   .footer__logo {
     -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);

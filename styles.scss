@@ -17,7 +17,7 @@
 
         max-width: 667px;
 
-        background-color:cornflowerblue;
+        background-color:rgb(69, 125, 228);
 
     }
 
@@ -122,11 +122,22 @@
 
     }
 
+    .restaurants img {
+        object-fit:cover;
+        width: 100%;
+    }
+
     .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
         background-color: white;
         border-radius: 0 0 15px 15px;
-        padding: 0 0 0 10px;
 
+
+        border: 1px solid black;
+
+    }
+
+    .restaurants div>.p {
+        padding: 0 0 0 15px;
     }
 
     .restaurants div>a {
@@ -142,6 +153,7 @@
 
     footer img {
         width: 32%;
+        padding: 15px 0 0 0;
     }
 
     .footer__logo {
