@@ -125,6 +125,18 @@
     .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
         background-color: white;
         border-radius: 0 0 15px 15px;
+        padding: 0 0 0 10px;
+
+    }
+
+    .restaurants div>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
+        font-weight: bold;
+       
 
     }
 
