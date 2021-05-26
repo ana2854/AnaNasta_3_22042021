@@ -24,22 +24,72 @@
     header{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
         text-align: center;
     }
 
+    header img {
+         width: 35%;
+    }
 
     .header__logo {
-        flex: 30%;
+       
         background-color:white;
+        padding: 12px;
+        box-shadow: 0 0 -8px 0 #272a2c;
+           
+    }
+
+    .header__map {
+        flex: 100%;
+        background-color: rgb(165, 154, 154);
+    }
+
+    .header__map > .fa-map-marker-alt {
         padding: 10px;
     }
 
-    .accroche {
-        text-align: center;
+
+    .header__map > input {
+        border: transparent;
+        background-color: transparent;
+        padding: 0 0 0 15px;
+        color: black;
+
+    }
+
+    ::placeholder {
+        background-color: rgb(165, 154, 154);
+        padding: 0 0 0 15px;
+        color:black;
+        font-weight: bold;
+
     }
 
     
+    
+    
+    .accroche {
+            text-align: center;
+            font-size: 18px;
+            background-color: rgb(218, 208, 208);
+            padding:20px;
+        }
+
+    .accroche__titre {
+       font-weight: bold;
+       margin: 15px;
+    }
+
+    .accroche__bouton {
+
+        padding:10px 15px 10px 15px;
+        border-radius: 20px;
+        color:white;
+        font-weight: bold;
+        background-color: blueviolet;
+    }
 
 
     .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {

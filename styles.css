@@ -18,17 +18,75 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
+  header img {
+    width: 35%;
+  }
   .header__logo {
-    -webkit-box-flex: 30%;
-        -ms-flex: 30%;
-            flex: 30%;
     background-color: white;
+    padding: 12px;
+    -webkit-box-shadow: 0 0 -8px 0 #272a2c;
+            box-shadow: 0 0 -8px 0 #272a2c;
+  }
+  .header__map {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    background-color: #a59a9a;
+  }
+  .header__map > .fa-map-marker-alt {
     padding: 10px;
+  }
+  .header__map > input {
+    border: transparent;
+    background-color: transparent;
+    padding: 0 0 0 15px;
+    color: black;
+  }
+  ::-webkit-input-placeholder {
+    background-color: #a59a9a;
+    padding: 0 0 0 15px;
+    color: black;
+    font-weight: bold;
+  }
+  :-ms-input-placeholder {
+    background-color: #a59a9a;
+    padding: 0 0 0 15px;
+    color: black;
+    font-weight: bold;
+  }
+  ::-ms-input-placeholder {
+    background-color: #a59a9a;
+    padding: 0 0 0 15px;
+    color: black;
+    font-weight: bold;
+  }
+  ::placeholder {
+    background-color: #a59a9a;
+    padding: 0 0 0 15px;
+    color: black;
+    font-weight: bold;
   }
   .accroche {
     text-align: center;
+    font-size: 18px;
+    background-color: #dad0d0;
+    padding: 20px;
+  }
+  .accroche__titre {
+    font-weight: bold;
+    margin: 15px;
+  }
+  .accroche__bouton {
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
   }
   .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
     font-family: 'Shrikhand', cursive;
