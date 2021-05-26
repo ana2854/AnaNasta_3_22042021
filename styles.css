@@ -10,7 +10,7 @@
     max-width: 667px;
     background-color: #457de4;
   }
-  header {
+  .headerA {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -114,8 +114,8 @@
   }
   .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
     background-color: white;
-    border-radius: 0 0 15px 15px;
-    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
   }
   .restaurants div > .p {
     padding: 0 0 0 15px;

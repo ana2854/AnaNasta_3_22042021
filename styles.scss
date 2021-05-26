@@ -21,7 +21,7 @@
 
     }
 
-    header{
+    .headerA{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -131,10 +131,9 @@
 
     .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
         background-color: white;
-        border-radius: 0 0 15px 15px;
+        border-radius: 15px;
+        margin: 0 0 10px 0;
 
-
-        border: 1px solid black;
 
     }
 
@@ -164,6 +163,7 @@
     }
 
     footer {
+    
         background-color: rgba(87, 79, 79, 0.918);
         color: white;
         padding: 5px 10px 25px 10px;
