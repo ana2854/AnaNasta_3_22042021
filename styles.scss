@@ -21,6 +21,17 @@
 
     }
 
+    header, .accroche {
+        text-align: center;
+    }
+
+    .header__logo {
+        background-color:white;
+    }
+
+    
+
+
     .menu-a-la-francaise__titre, .menu-note-enchantee__titre, .menu-delice-des-sens__titre, .menu-palette-du-gout__titre {
     font-family: 'Shrikhand', cursive;
     } 
@@ -29,10 +40,6 @@
         border: 3px solid black;
 
         width: 100%;
-    }
-
-    header, .accroche {
-        text-align: center;
     }
 
 
