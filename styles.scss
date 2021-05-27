@@ -169,31 +169,44 @@
 
     /* PAGE CUISINE */
 
-    .headerCuisine {
+    .Hautpage {
         display: flex;
         flex-direction: row;
+        align-items: center;
         flex-wrap: wrap;
         background-color: white;
     }
 
-    .headerCuisine__fleche i{
+    .headerCuisine__fleche{
         width: 30%;
+        text-decoration: none;
+
 
         border: 1px solid black;
     }
 
-    .headerCuisine__logoOMF img{
-        width: 70%;
-
-        border: 1px solid blue;
+    .headerCuisine__logo img {
+        width: 60%;
     }
 
-    .menus__photo> img{
+
+
+    .headerCuisine__photo img {
         object-fit: cover;
         width: 100%;
         height: 200px;
+
+
+        border:1px solid black;
     }
 
+    
+    .menus {
+            background-color:rgb(218, 208, 208);
+
+            border: 2px solid black;
+    
+        }
 
 
 
