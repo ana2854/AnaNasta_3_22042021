@@ -184,18 +184,33 @@
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    padding: 0 10px 0 10px;
     border: 2px solid black;
+  }
+  .menus__titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0px 20px 0 0px;
   }
   .menus__entrees > div, .menus__plats > div, .menus__desserts > div {
     margin: 0 0 10px 0;
     background-color: white;
     border-radius: 10px;
     padding: 1px;
-    line-height: 7px;
+    line-height: 0.2px;
     font-size: 14px;
   }
-  .menus__infos {
+  .menus__infos aside {
     color: red;
+    font-size: 12px;
     border: 1px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
