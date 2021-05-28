@@ -9,6 +9,8 @@
     font-size: 15px;
     max-width: 667px;
     background-color: #f5df1e;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .headerA {
     display: -webkit-box;
@@ -180,7 +182,6 @@
   .headerCuisine__fleche {
     width: 30%;
     text-decoration: none;
-    border: 1px solid black;
   }
   .headerCuisine__logoOMF > img {
     width: 60%;
@@ -191,7 +192,6 @@
        object-fit: cover;
     width: 100%;
     height: 200px;
-    border: 1px solid black;
   }
   .menus {
     background-color: #dad0d0;
@@ -226,19 +226,36 @@
     background-color: white;
     border-radius: 10px;
     padding: 1px;
-    line-height: 0.2px;
-    font-size: 14px;
-  }
-  .menus__infos aside {
-    color: red;
     font-size: 12px;
-    border: 1px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 0.5px;
+    border: 1px solid green;
+  }
+  .menus h4 {
+    width: 100%;
+  }
+  .menus__infos {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .menus__p {
+    color: red;
+    padding: 0 15px 0 15px;
+  }
+  .btn-commander {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
