@@ -211,8 +211,11 @@
         }
 
 
-    .menus__entrees>div, .menus__plats>div, .menus__desserts>div {
+    .menus__entrees>div, .menus__plats>div, .menus__desserts>div{
         background-color: white;
+        border-radius: 20px;
+        line-height: 8px;
+        font-size: 14px;
     }
 
 
