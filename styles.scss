@@ -130,15 +130,27 @@
     .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
         background-color: white;
         border-radius: 15px;
-        margin: 0 0 10px 0;
+        margin: 0 0 12px 0;
+
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
 
+    }
+
+    .btn-fav {
+        align-self: center;
+        padding:0 15px 0 0;
     }
 
     .restaurants div>.p {
         padding: 0 0 0 15px;
         line-height: 3px;
     }
+
+    
 
     .restaurants div>a {
         text-decoration: none;
@@ -218,6 +230,8 @@
             border: 2px solid black;
     
         }
+
+    
 
     .menus__titre {
         display: flex;
