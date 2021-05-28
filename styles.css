@@ -175,13 +175,33 @@
   .menus {
     background-color: #dad0d0;
     border-radius: 30px 30px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     border: 2px solid black;
   }
   .menus__entrees > div, .menus__plats > div, .menus__desserts > div {
+    margin: 0 0 10px 0;
     background-color: white;
-    border-radius: 20px;
-    line-height: 8px;
+    border-radius: 10px;
+    padding: 1px;
+    line-height: 7px;
     font-size: 14px;
+  }
+  .menus__entrees div > p, .menus__plats div > p, .menus__desserts div > p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /*# sourceMappingURL=styles.css.map */
