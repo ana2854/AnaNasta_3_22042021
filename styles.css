@@ -194,14 +194,15 @@
     line-height: 7px;
     font-size: 14px;
   }
-  .menus__entrees div > p, .menus__plats div > p, .menus__desserts div > p {
+  .menus__infos {
+    color: red;
+    border: 1px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -224,9 +224,11 @@
         font-size: 14px;
     }
 
-    .menus__entrees div>p, .menus__plats div>p, .menus__desserts div>p {
+    .menus__infos {
+        color:red;
+        border: 1px solid black;
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
     }
 
 
