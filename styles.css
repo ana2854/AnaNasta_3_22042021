@@ -239,15 +239,15 @@
             justify-content: space-between;
     line-height: 2px;
     padding: 0px;
-    border: 1px solid #1505f7;
   }
   .presentation, .prix {
     margin: 0 15px 0 10px;
   }
-  .presentation p {
+  .presentation p, .prix {
     font-size: smaller;
   }
   .prix {
+    font-weight: bold;
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
