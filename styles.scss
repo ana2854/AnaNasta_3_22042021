@@ -106,11 +106,33 @@
 
     }
 
+    
 
-    .nav__p1, .nav__p2, .nav__p3 {
+    .chiffre {
+        border: 1px solid black;
+        padding: 7px;
+        color:white;
+        background-color: rgb(107, 2, 107);
+        border-radius: 20px;
 
-        text-align: center;
-        padding: 28px 28px;
+    }
+
+    .nav i{
+        border:1px solid blue;
+    }
+
+    .nav p {
+        border:1px solid red;
+    }
+
+
+    .nav__choisir, .nav__composer, .nav__deguster {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    
         border-radius: 30px;
         background-color:rgb(218, 208, 208);
     }
@@ -281,6 +303,12 @@
 
     .btn-commander {
         align-self: center;
+        padding: 12px 40px 12px 40px;
+        background-color: rgb(94, 12, 94);
+        border-radius: 40px;
+        color:white;
+
+        margin:50px 0 0 0;
     }
 
 
