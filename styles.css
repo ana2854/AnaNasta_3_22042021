@@ -221,36 +221,32 @@
             justify-content: space-between;
     padding: 0px 20px 0 0px;
   }
-  .menus__entrees > div, .menus__plats > div, .menus__desserts > div {
-    margin: 0 0 10px 0;
+  .menus__intitule {
     background-color: white;
-    border-radius: 10px;
-    padding: 1px;
-    font-size: 12px;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    line-height: 0.5px;
-    border: 1px solid green;
-  }
-  .menus h4 {
-    width: 100%;
-  }
-  .menus__infos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    line-height: 2px;
+    padding: 0px;
+    border: 1px solid #1505f7;
   }
-  .menus__p {
-    color: red;
-    padding: 0 15px 0 15px;
+  .presentation, .prix {
+    margin: 0 15px 0 10px;
+  }
+  .prix {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
   .btn-commander {
     -ms-flex-item-align: center;

@@ -235,6 +235,9 @@
             border: 2px solid black;    
         }
 
+
+    
+
     .menus__titre {
         display: flex;
         flex-direction: row;
@@ -243,40 +246,35 @@
     }
 
 
-    .menus__entrees>div, .menus__plats>div, .menus__desserts>div{
+    .menus__intitule {
 
-        margin:0 0 10px 0;
         background-color: white;
-        border-radius: 10px;
-        padding: 1px;
-       font-size: 12px;
-
-       display: flex;
-       flex-direction: column;
-
-       line-height: 0.5px;
-
-       border:1px solid green;
-
-       
-    }
-
-    .menus h4 {
-        width: 100%;
-    }
-
-    .menus__infos {
+        border-radius: 15px;
+        margin:0 0 10px 0;
 
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
+
+        line-height: 2px;
+
+        padding:0px;
+
+        border:1px solid rgb(21, 5, 247);
     
     }
 
-    .menus__p {
-        color:red;
-        
-        padding:0 15px 0 15px;
+    .presentation, .prix {
+        margin: 0 15px 0 10px;
     }
+
+    .prix {
+
+        align-self: flex-end;
+    }
+
+   
 
 
     .btn-commander {
