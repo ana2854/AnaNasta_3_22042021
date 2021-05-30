@@ -1,13 +1,10 @@
 @media screen and (max-width: 667px) {
-  .wrapper {
-    max-width: 667px;
-    width: 100%;
-  }
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     max-width: 667px;
     width: 100%;
+    margin: 0,1%;
     background-color: white;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -207,9 +204,14 @@
   }
   .footer-menus {
     position: relative;
-    top: 170px;
+    z-index: 2;
+    top: 1030px;
   }
   /* PAGE CUISINE */
+  .headerCuisine {
+    position: relative;
+    z-index: 0;
+  }
   .Hautpage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -224,6 +226,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     background-color: white;
+    border: 1px solid black;
   }
   .fa-arrow-left {
     color: black;
@@ -241,10 +244,9 @@
        object-fit: cover;
     width: 100%;
     height: 200px;
-    position: absolute;
+    border: 1px solid #aaaaf3;
   }
   .menus {
-    width: 100%;
     background-color: #dad0d0;
     border-radius: 30px 30px 0 0;
     display: -webkit-box;
@@ -257,8 +259,11 @@
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding: 10px 10px 70px 10px;
-    position: relative;
-    top: 165px;
+    position: absolute;
+    width: 95%;
+    top: 210px;
+    z-index: 1;
+    border: 1px solid yellow;
   }
   .menus__titre {
     display: -webkit-box;
