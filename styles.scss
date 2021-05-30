@@ -101,33 +101,51 @@
 
     nav {
         background-color: white;
-        padding: 25px 15px 25px 15px;
+        padding: 25px 20px 25px 15px;
+
+
+     
 
     }
 
     .nav-p{
         
-        flex:90%;
+        flex:70%;
+        font-weight: bold;
 
-        border:1px solid rgb(245, 2, 2);
     }
 
     
 
     .nav-chiffre {
-        border: 1px solid black;
 
-    padding: 1px;
-    background-color: brown;
+        position: relative;
+        right:8px;
+        margin-right: 5px;
 
-        flex:5%;
+        border-radius: 15px;
+
+        text-align: center;
+        font-size: smaller;
+        padding:4px 2px 4px 2px;
+      
+        background-color: rgb(165, 42, 134);
+        color:white;
+
+        flex:2%;
     }
 
     .nav-logo {
-        border: 1px solid blue;
+      
 
-        flex:5%;
+        text-align: center;
+
+        margin-right: 10px;
+
+        flex:7%;
     }
+
+    
 
     
 
@@ -135,13 +153,18 @@
 
        display: flex;
        align-items: center;
+       flex-wrap: wrap;
 
-       margin: 0 0 15px 0;
-
-       text-align: center;
+        margin: 0 0 15px 0;
+        padding:10px 0 10px 0;
     
-        border-radius: 30px;
+        border-radius: 25px;
         background-color:rgb(218, 208, 208);
+
+        position: relative;
+        left:8px;
+
+      
     }
 
 
