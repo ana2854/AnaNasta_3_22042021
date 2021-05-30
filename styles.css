@@ -1,14 +1,12 @@
 @media screen and (max-width: 667px) {
   .wrapper {
     max-width: 667px;
-    margin: 0 1%;
-    background-color: #fdc1c1;
   }
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     max-width: 667px;
-    background-color: #f5df1e;
+    background-color: white;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -94,7 +92,7 @@
   }
   nav {
     background-color: white;
-    padding: 25px 0 25px 0;
+    padding: 25px 15px 25px 15px;
   }
   .nav-p {
     -webkit-box-flex: 90%;
@@ -130,14 +128,14 @@
   }
   .restaurants {
     background-color: #dad0d0;
-    padding: 25px 0 55px 0;
+    padding: 25px 15px 55px 15px;
   }
   .restaurants img {
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 15px 15px 0 0;
     width: 100%;
-    height: 160px;
+    height: 150px;
   }
   .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
     background-color: white;
@@ -192,7 +190,7 @@
   footer {
     background-color: rgba(51, 48, 48, 0.918);
     color: white;
-    padding: 5px 10px 25px 10px;
+    padding: 5px 10px 25px 15px;
   }
   /* PAGE CUISINE */
   .Hautpage {

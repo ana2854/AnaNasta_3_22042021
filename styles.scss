@@ -3,10 +3,9 @@
 @media screen and (max-width:667px) {
 
     .wrapper{
-        max-width: 667px;
-        margin: 0 1%;
+        max-width: 667px;       
 
-        background-color: rgb(253, 193, 193);
+    
     }
 
 
@@ -17,7 +16,7 @@
 
         max-width: 667px;
 
-        background-color:rgb(245, 223, 30);
+        background-color:white;
 
         box-sizing: border-box;
 
@@ -102,7 +101,7 @@
 
     nav {
         background-color: white;
-        padding: 25px 0 25px 0;
+        padding: 25px 15px 25px 15px;
 
     }
 
@@ -148,7 +147,7 @@
 
     .restaurants {
         background-color: rgb(218, 208, 208);
-        padding: 25px 0 55px 0;
+        padding: 25px 15px 55px 15px;
 
     }
 
@@ -156,7 +155,7 @@
         object-fit:cover;
         border-radius:15px 15px 0 0 ;
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
 
     .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
@@ -222,7 +221,7 @@
     
         background-color: rgba(51, 48, 48, 0.918);
         color: white;
-        padding: 5px 10px 25px 10px;
+        padding: 5px 10px 25px 15px;
 
         
     }
