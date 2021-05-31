@@ -1,0 +1,61 @@
+
+    nav {
+        background-color: white;
+        padding: 25px 25px 25px 15px;
+    }
+
+    .nav-p{
+        
+        flex:70%;
+    }
+
+    
+
+    .nav-chiffre {
+
+        position: relative;
+        right:8px;
+        margin-right: 5px;
+
+        border-radius: 12px;
+
+        text-align: center;
+        padding:4px 1px 4px 1px;
+      
+        background-color: rgb(165, 42, 134);
+        color:white;
+
+        flex:0.5%;
+    }
+
+    .nav-logo {
+      
+
+        text-align: center;
+
+        margin-right: 10px;
+
+        flex:7%;
+    }
+
+    
+
+    
+
+    .nav__choisir, .nav__composer, .nav__deguster {
+
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+
+        margin: 0 0 15px 0;
+        padding:10px 0 10px 0;
+    
+        border-radius: 25px;
+        background-color:rgb(218, 208, 208);
+
+        position: relative;
+        left:8px;
+
+      
+    }

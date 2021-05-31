@@ -1,229 +1,5 @@
 @media screen and (max-width: 667px) {
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    max-width: 667px;
-    width: 100%;
-    margin: 0,1%;
-    background-color: white;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .wrapper {
-    max-width: 667px;
-  }
-  .headerA {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-  }
-  header img {
-    width: 40%;
-  }
-  .header__logoOMF {
-    background-color: white;
-    padding: 12px;
-  }
-  .header__map {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-    background-color: #a59a9a;
-  }
-  .header__map > .fa-map-marker-alt {
-    padding: 10px;
-  }
-  .header__map > input {
-    border: transparent;
-    background-color: transparent;
-    padding: 0 0 0 15px;
-    color: black;
-  }
-  ::-webkit-input-placeholder {
-    background-color: #a59a9a;
-    padding: 0 0 0 15px;
-    color: black;
-    font-weight: bold;
-  }
-  :-ms-input-placeholder {
-    background-color: #a59a9a;
-    padding: 0 0 0 15px;
-    color: black;
-    font-weight: bold;
-  }
-  ::-ms-input-placeholder {
-    background-color: #a59a9a;
-    padding: 0 0 0 15px;
-    color: black;
-    font-weight: bold;
-  }
-  ::placeholder {
-    background-color: #a59a9a;
-    padding: 0 0 0 15px;
-    color: black;
-    font-weight: bold;
-  }
-  .accroche {
-    text-align: center;
-    font-size: 18px;
-    background-color: #dad0d0;
-    padding: 20px;
-  }
-  .accroche__titre {
-    font-weight: bold;
-    margin: 15px;
-  }
-  .accroche__bouton {
-    padding: 12px 20px 12px 20px;
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-    background-color: blueviolet;
-    margin: 10px 0 25px 0;
-  }
-  .menus__titre {
-    font-family: 'Shrikhand', cursive;
-  }
-  nav {
-    background-color: white;
-    padding: 25px 25px 25px 15px;
-  }
-  .nav-p {
-    -webkit-box-flex: 70%;
-        -ms-flex: 70%;
-            flex: 70%;
-    font-weight: bold;
-  }
-  .nav-chiffre {
-    position: relative;
-    right: 8px;
-    margin-right: 5px;
-    border-radius: 12px;
-    text-align: center;
-    font-size: smaller;
-    padding: 4px 1px 4px 1px;
-    background-color: #a52a86;
-    color: white;
-    -webkit-box-flex: 0.5%;
-        -ms-flex: 0.5%;
-            flex: 0.5%;
-  }
-  .nav-logo {
-    text-align: center;
-    margin-right: 10px;
-    -webkit-box-flex: 7%;
-        -ms-flex: 7%;
-            flex: 7%;
-  }
-  .nav__choisir, .nav__composer, .nav__deguster {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0 0 15px 0;
-    padding: 10px 0 10px 0;
-    border-radius: 25px;
-    background-color: #dad0d0;
-    position: relative;
-    left: 8px;
-  }
-  .restaurants {
-    background-color: #dad0d0;
-    padding: 25px 15px 55px 15px;
-  }
-  .restaurants img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 15px 15px 0 0;
-    width: 100%;
-    height: 150px;
-  }
-  .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
-    background-color: white;
-    border-radius: 15px;
-    margin: 0 0 12px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    border: 8px solid red;
-  }
-  .btn-fav {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding: 0 15px 0 0;
-  }
-  .restaurants div > .p {
-    padding: 0 0 0 15px;
-    line-height: 3px;
-  }
-  .restaurants div > a {
-    text-decoration: none;
-    color: black;
-  }
-  .palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
-    font-weight: bold;
-  }
-  footer img {
-    width: 32%;
-    padding: 15px 0 0 0;
-  }
-  .footer__logo {
-    -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
-            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
-  }
-  .fa-utensils {
-    margin: 0 12px 0 0;
-    font-size: 10px;
-  }
-  .fa-hands-helping {
-    font-size: 9px;
-    margin: 0 8px 0 0;
-  }
-  .contact a {
-    text-decoration: none;
-    color: white;
-  }
-  .footer-accueil, .footer-menus {
-    background-color: rgba(51, 48, 48, 0.918);
-    color: white;
-    padding: 5px 10px 25px 15px;
-  }
-  footer > .footer-menus {
-    position: relative;
-    z-index: 2;
-    top: 200px;
-    width: 95%;
-    border: 5px solid blue;
-  }
   /* PAGE CUISINE */
-  .headerCuisine {
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    border: 5px solid #850385;
-  }
   .Hautpage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -245,7 +21,6 @@
   }
   .headerCuisine__fleche {
     width: 30%;
-    text-decoration: none;
   }
   .headerCuisine__logoOMF > img {
     width: 60%;
@@ -289,7 +64,6 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 0px 20px 0 0px;
-    font-size: 24px;
   }
   .menus__intitule {
     background-color: white;
@@ -307,29 +81,14 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    line-height: 2px;
     padding: 0px;
   }
   .presentation, .prix {
     margin: 0 15px 0 10px;
   }
-  .presentation p, .prix {
-    font-size: smaller;
-  }
   .prix {
-    font-weight: bold;
     -ms-flex-item-align: end;
         align-self: flex-end;
-  }
-  .btn-commander {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding: 12px 40px 12px 40px;
-    background-color: #5e0c5e;
-    border-radius: 40px;
-    color: white;
-    margin: 50px 0 0 0;
   }
 }
 
@@ -344,6 +103,12 @@
     background-color: white;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: red;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,42 @@
+
+    .restaurants {
+        background-color: rgb(218, 208, 208);
+        padding: 25px 15px 55px 15px;
+
+    }
+
+    .restaurants img {
+        object-fit:cover;
+        border-radius:15px 15px 0 0 ;
+        width: 100%;
+        height: 150px;
+    }
+
+    .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+        background-color: white;
+        border-radius: 15px;
+        margin: 0 0 12px 0;
+
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        
+
+        border: 8px solid red;
+
+
+    }
+
+    
+    .restaurants div>.p {
+        padding: 0 0 0 15px;
+    }
+
+    
+
+    .restaurants div>a {
+        text-decoration: none;
+        color: black;
+    }

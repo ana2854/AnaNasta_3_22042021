@@ -12,12 +12,28 @@
 .btn-commander {
     align-self: center;
     padding: 12px 40px 12px 40px;
-    background-color: rgb(94, 12, 94);
+    background-color:$color-primary;
     border-radius: 40px;
     color:white;
 
     margin:50px 0 0 0;
 }
+
+.btn-fav {
+    background-color: transparent;
+    /*transition-duration:900ms;*/
+    align-self: center;
+    padding:0 15px 0 0;
+
+        &:hover {
+             background-color:$color-primary;
+             transition: opacity 900ms;
+        }
+    &--size {
+        font-size: 24px;
+    }
+}
+
 
 
 
