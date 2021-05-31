@@ -2,118 +2,48 @@
 
 @media screen and (max-width:667px) {
 
-   
-
-
-
     body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 15px;
-
-        max-width: 667px;
-        width: 100%;
-
-        margin:0,1%;
-    
-        
-
-        background-color:white;
-
-        box-sizing: border-box;
-
-    }
-
-    .headerA{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-        text-align: center;
-    }
-
-    header img {
-         width: 40%;
-    }
-
-    .header__logoOMF {
        
-        background-color:white;
-        padding: 12px;
-           
+        max-width: 667px;
     }
 
-    .header__map {
-        flex: 100%;
-        background-color: rgb(165, 154, 154);
+    .wrapper {
+        max-width: 667px;
     }
 
-    .header__map > .fa-map-marker-alt {
-        padding: 10px;
-    }
-
-
-    .header__map > input {
-        border: transparent;
-        background-color: transparent;
-        padding: 0 0 0 15px;
-        color: black;
-
-    }
-
-    ::placeholder {
-        background-color: rgb(165, 154, 154);
-        padding: 0 0 0 15px;
-        color:black;
-        font-weight: bold;
-
-    }
-
-    
     
     
     .accroche {
             text-align: center;
-            font-size: 18px;
             background-color: rgb(218, 208, 208);
             padding:20px;
         }
 
     .accroche__titre {
-       font-weight: bold;
        margin: 15px;
     }
 
-    .accroche__bouton {
+    
 
-        padding:12px 20px 12px 20px;
-        border-radius: 20px;
-        color:white;
-        font-weight: bold;
-        background-color: blueviolet;
-        margin: 10px 0 25px 0;
+    .fa-heart {
+         background-color: transparent;
+         transition-duration:1000ms;
+    }
+
+    .fa-heart:hover {
+        background-color:$color-primary;
+       
     }
 
 
-    .menus__titre {
-    font-family: 'Shrikhand', cursive;
-    } 
-
-    
-
     nav {
         background-color: white;
-        padding: 25px 20px 25px 15px;
-
-
-     
-
+        padding: 25px 25px 25px 15px;
     }
 
     .nav-p{
         
         flex:70%;
-        font-weight: bold;
-
     }
 
     
@@ -124,16 +54,15 @@
         right:8px;
         margin-right: 5px;
 
-        border-radius: 15px;
+        border-radius: 12px;
 
         text-align: center;
-        font-size: smaller;
-        padding:4px 2px 4px 2px;
+        padding:4px 1px 4px 1px;
       
         background-color: rgb(165, 42, 134);
         color:white;
 
-        flex:2%;
+        flex:0.5%;
     }
 
     .nav-logo {
@@ -192,6 +121,10 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
+        
+
+        border: 8px solid red;
+
 
     }
 
@@ -202,10 +135,6 @@
 
     .restaurants div>.p {
         padding: 0 0 0 15px;
-        line-height: 3px;
-
-
-
     }
 
     
@@ -213,12 +142,6 @@
     .restaurants div>a {
         text-decoration: none;
         color: black;
-    }
-
-    .palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
-        font-weight: bold;
-       
-
     }
 
     footer img {
@@ -232,13 +155,20 @@
 
     .fa-utensils {
         margin: 0 12px 0 0;
-        font-size: 10px;
+            font-size: 10px;
+        
     }
 
     .fa-hands-helping {
 
         font-size: 9px;
         margin:0 8px 0 0;
+    }
+
+    .contact a{
+        text-decoration:none;
+        color:white;
+      
     }
 
     .footer-accueil, .footer-menus {
@@ -248,21 +178,22 @@
         padding: 5px 10px 25px 15px;
     }
 
-    .footer-menus {
+    footer>.footer-menus {
          position: relative;
          z-index: 2;
-         top:1030px;
+         top:200px;
+
+         width: 95%;
+
+
+         border: 5px solid blue;
     
     }
 
 
     /* PAGE CUISINE */
 
-    .headerCuisine {
-        position: relative;
-        z-index:0;
-    }
-   
+    
 
     .Hautpage {
         display: flex;
@@ -281,9 +212,6 @@
 
     .headerCuisine__fleche{
         width: 30%;
-        text-decoration: none;
-
-
     }
 
     .headerCuisine__logoOMF>img {
@@ -316,16 +244,16 @@
             flex-direction: column;
             justify-content: space-around;
 
-            padding: 10px 10px 70px 10px;
+            padding: 8px 10px 70px 10px;
 
-            position:absolute;
+            position:relative;
             width:95%;
             top: 210px;
 
             z-index:1;
 
 
-            border: 1px solid yellow;
+            border: 5px solid yellow;
         }
 
 
@@ -336,8 +264,6 @@
         flex-direction: row;
         justify-content: space-between;
         padding:0px 20px 0 0px;
-
-        font-size: 24px;
     }
 
 
@@ -352,8 +278,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        line-height: 2px;
-
         padding:0px;
     
     }
@@ -362,39 +286,38 @@
         margin: 0 15px 0 10px;
     }
 
-    .presentation p, .prix{
-        font-size: smaller;
-    }
 
     .prix {
-        font-weight: bold;
         align-self: flex-end;
     }
 
-   
-
-
-    .btn-commander {
-        align-self: center;
-        padding: 12px 40px 12px 40px;
-        background-color: rgb(94, 12, 94);
-        border-radius: 40px;
-        color:white;
-
-        margin:50px 0 0 0;
-    }
-
-
-
-
-
-
-
-    
-
-   
-
-
-    
+  
     
 }
+
+
+@media screen and (max-width:1024px) {
+
+   
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+
+        background-color: brown;
+
+        max-width: 1024px;
+        width: 100%;
+
+        margin:0,1%;
+    
+        
+
+        background-color:white;
+
+        box-sizing: border-box;
+
+    }
+
+}
+
+   

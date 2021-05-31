@@ -1,0 +1,57 @@
+.headerA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+
+}
+
+.header-menus { 
+    width: 100%;
+    position: absolute;
+    z-index:0;
+    
+    
+    border: 5px solid rgb(133, 3, 133);
+       
+    }
+
+
+
+header img {
+     width: 40%;
+}
+
+.header__logoOMF {
+   
+    background-color:white;
+    padding: 12px;
+       
+}
+
+.header__map {
+    flex: 100%;
+    background-color: rgb(165, 154, 154);
+}
+
+.header__map > .fa-map-marker-alt {
+    padding: 10px;
+}
+
+
+.header__map > input {
+    border: transparent;
+    background-color: transparent;
+    padding: 0 0 0 15px;
+    color: black;
+
+}
+
+::placeholder {
+    background-color: rgb(165, 154, 154);
+    padding: 0 0 0 15px;
+    color:black;
+    font-weight: bold;
+
+}

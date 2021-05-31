@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.accroche {
+    font-size: 18px;
+}
+
+.accroche__titre {
+    font-weight: bold;
+}
+
+.nav-p{
+    font-weight: bold;
+}
+
+.nav-chiffre {
+    font-size: smaller;
+}
+
+
+.headerCuisine__fleche{
+    text-decoration: none;
+}
+
+.menus__titre {
+    font-family: 'Shrikhand', cursive;
+    font-size: 24px;
+    }
+
+.menus__intitule {
+    line-height: 2px;
+}
+
+
+.restaurants div>.p {
+    line-height: 3px;
+}
+
+
+.palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
+    font-weight: bold;
+}
+
+.presentation p, .prix{
+    font-size: smaller;
+}
+
+.prix {
+    font-weight: bold;
+}
