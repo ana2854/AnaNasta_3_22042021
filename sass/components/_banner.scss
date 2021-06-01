@@ -1,0 +1,12 @@
+.palette-du-gout,.note-enchantee,.francaise,.delice-des-sens {
+    position: relative;
+}
+
+.mention {
+    position: absolute;
+    top:5px;
+    right:10px;
+    background-color: $color-tertiary;
+    padding:2px;
+    line-height: 1px;
+}

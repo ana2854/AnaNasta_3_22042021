@@ -7,6 +7,7 @@ body {
   background-color: #eb0e0e;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 2px solid black;
 }
 
 body {
@@ -96,6 +97,19 @@ body {
 
 .btn-fav--size {
   font-size: 24px;
+}
+
+.palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+  position: relative;
+}
+
+.mention {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #99E2D0;
+  padding: 2px;
+  line-height: 1px;
 }
 
 .headerA {
@@ -341,7 +355,7 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 8px solid red;
+  border: 3px solid red;
 }
 
 .restaurants div > .p {
