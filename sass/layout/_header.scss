@@ -1,4 +1,4 @@
-.headerA{
+.headerAccueil{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,40 +7,29 @@
 
 }
 
-.header-menus { 
-    width: 100%;
-    position: absolute;
-    z-index:0;
-    
-    
-    border: 5px solid rgb(133, 3, 133);
-       
-    }
-
-
 
 header img {
      width: 40%;
 }
 
-.header__logoOMF {
+.headerA__logoOMF {
    
     background-color:white;
     padding: 12px;
        
 }
 
-.header__map {
+.headerA__map {
     flex: 100%;
     background-color: rgb(165, 154, 154);
 }
 
-.header__map > .fa-map-marker-alt {
+.headerA__map > .fa-map-marker-alt {
     padding: 10px;
 }
 
 
-.header__map > input {
+.headerA__map > input {
     border: transparent;
     background-color: transparent;
     padding: 0 0 0 15px;
@@ -58,40 +47,5 @@ header img {
 
 
 
-    /* PAGE CUISINE */
 
     
-
-    .Hautpage {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
-        background-color: white;
-
-        border: 1px solid black;
-    }
-
-    .fa-arrow-left {
-        color:black;
-    }
-
-
-    .headerCuisine__fleche{
-        width: 30%;
-    }
-
-    .headerCuisine__logoOMF>img {
-        width: 60%;
-        padding: 8px 8px;
-
-    }
-
-    .headerCuisine__photo img {
-        object-fit: cover;
-        width: 100%;
-        height: 200px;
-
-        border:1px solid rgb(170, 170, 243);
-
-    }
