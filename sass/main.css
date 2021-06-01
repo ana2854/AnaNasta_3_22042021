@@ -52,6 +52,11 @@ body {
   font-weight: bold;
 }
 
+.mention {
+  font-size: small;
+  line-height: 2px;
+}
+
 .presentation p, .prix {
   font-size: smaller;
 }
@@ -105,11 +110,10 @@ body {
 
 .mention {
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 10px;
   background-color: #99E2D0;
-  padding: 2px;
-  line-height: 1px;
+  padding: 2px 15px 2px 15px;
 }
 
 .headerA {
