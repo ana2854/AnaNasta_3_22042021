@@ -81,8 +81,7 @@ body {
 
 .btn-fav {
   background-color: transparent;
-  -webkit-transition-duration: 1000ms;
-          transition-duration: 1000ms;
+  /*transition-duration:900ms;*/
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -91,6 +90,8 @@ body {
 
 .btn-fav:hover {
   background-color: #9356DC;
+  -webkit-transition: opacity 900ms;
+  transition: opacity 900ms;
 }
 
 .btn-fav--size {
@@ -173,33 +174,8 @@ header img {
   font-weight: bold;
 }
 
-.accroche {
-  text-align: center;
-  background-color: #dad0d0;
-  padding: 20px;
-}
-
-.accroche__titre {
-  margin: 15px;
-}
-
-.restaurants {
-  background-color: #dad0d0;
-  padding: 25px 15px 55px 15px;
-}
-
-.restaurants img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 15px 15px 0 0;
-  width: 100%;
-  height: 150px;
-}
-
-.palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
-  background-color: white;
-  border-radius: 15px;
-  margin: 0 0 12px 0;
+/* PAGE CUISINE */
+.Hautpage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,21 +183,34 @@ header img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 8px solid red;
+  background-color: white;
+  border: 1px solid black;
 }
 
-.restaurants div > .p {
-  padding: 0 0 0 15px;
-}
-
-.restaurants div > a {
-  text-decoration: none;
+.fa-arrow-left {
   color: black;
+}
+
+.headerCuisine__fleche {
+  width: 30%;
+}
+
+.headerCuisine__logoOMF > img {
+  width: 60%;
+  padding: 8px 8px;
+}
+
+.headerCuisine__photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #aaaaf3;
 }
 
 footer img {
@@ -313,9 +302,116 @@ nav {
   left: 8px;
 }
 
-/*@import "./layout/nav";
-@import "./layout/section";
+.accroche {
+  text-align: center;
+  background-color: #dad0d0;
+  padding: 20px;
+}
 
-@import "./pages/cuisine";
-@import "./pages/index";*/
+.accroche__titre {
+  margin: 15px;
+}
+
+.restaurants {
+  background-color: #dad0d0;
+  padding: 25px 15px 55px 15px;
+}
+
+.restaurants img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 150px;
+}
+
+.palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 0 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 8px solid red;
+}
+
+.restaurants div > .p {
+  padding: 0 0 0 15px;
+}
+
+.restaurants div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.menus {
+  background-color: #dad0d0;
+  border-radius: 30px 30px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px 10px 70px 10px;
+  position: relative;
+  width: 95%;
+  top: 150px;
+  z-index: 1;
+  border: 5px solid yellow;
+}
+
+.menus__titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 20px 0 0px;
+}
+
+.menus__intitule {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px;
+}
+
+.presentation, .prix {
+  margin: 0 15px 0 10px;
+}
+
+.prix {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
 /*# sourceMappingURL=main.css.map */
