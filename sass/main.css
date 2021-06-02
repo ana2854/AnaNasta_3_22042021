@@ -1,5 +1,4 @@
-/*@import "./utils/functions";
-@import "./utils/mixins";*/
+/*@import "./utils/functions";*/
 body {
   max-width: 667px;
   width: 100%;
@@ -8,6 +7,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2px solid black;
+  position: relative;
 }
 
 body {
@@ -86,21 +86,23 @@ body {
 }
 
 .btn-fav {
-  background-color: transparent;
-  /*transition-duration:900ms;*/
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: 0 15px 0 0;
+  margin: 0 15px 0 0;
 }
 
-.btn-fav:hover {
+.fa-heart {
+  background-color: transparent;
+  -webkit-transition-duration: 900ms;
+          transition-duration: 900ms;
+}
+
+.fa-heart:hover {
   background-color: #9356DC;
-  -webkit-transition: opacity 900ms;
-  transition: opacity 900ms;
 }
 
-.btn-fav--size {
+.fa-heart--size {
   font-size: 24px;
 }
 
@@ -185,6 +187,12 @@ header img {
   font-weight: bold;
 }
 
+header .headerMenus {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+
 .headerMenus__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,8 +204,6 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   background-color: white;
   border: 1px solid black;
 }
@@ -224,7 +230,7 @@ header img {
 }
 
 footer img {
-  width: 32%;
+  width: 22%;
   padding: 15px 0 0 0;
 }
 
@@ -302,6 +308,8 @@ nav {
   background-color: #dad0d0;
   position: relative;
   left: 8px;
+  -webkit-box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
+          box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
 }
 
 .accroche {
@@ -343,6 +351,8 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+          box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
   border: 3px solid red;
 }
 
@@ -402,6 +412,8 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0px;
+  -webkit-box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+          box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
 }
 
 .presentation, .prix {

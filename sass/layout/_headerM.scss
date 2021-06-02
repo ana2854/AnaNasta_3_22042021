@@ -1,14 +1,17 @@
    
-
+header .headerMenus {
+    position: sticky;
+    top: 80px;
+}
     
     .headerMenus__top {
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
         background-color: white;
 
         border: 1px solid black;
+
     }
 
     .fa-arrow-left {
@@ -31,5 +34,7 @@
         height: 200px;
 
         border:1px solid rgb(170, 170, 243);
+
+       
 
     }

@@ -2,6 +2,7 @@
     nav {
         background-color: white;
         padding: 25px 25px 25px 15px;
+           
     }
 
     .nav-p{
@@ -56,6 +57,10 @@
 
         position: relative;
         left:8px;
+
+        
+            @include nav-shadow;
+        
 
       
     }

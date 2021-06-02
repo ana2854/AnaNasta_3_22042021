@@ -20,14 +20,18 @@
 }
 
 .btn-fav {
-    background-color: transparent;
-    /*transition-duration:900ms;*/
     align-self: center;
-    padding:0 15px 0 0;
+    margin: 0 15px 0 0;
+}
+
+.fa-heart{
+    background-color: transparent;
+    transition-duration:900ms;
+
 
         &:hover {
              background-color:$color-primary;
-             transition: opacity 900ms;
+            
         }
     &--size {
         font-size: 24px;
