@@ -1,16 +1,15 @@
-   
-header .headerMenus {
-    position: sticky;
-    top: 80px;
-}
-    
+
     .headerMenus__top {
+
         display: flex;
         flex-direction: row;
         align-items: center;
         background-color: white;
 
         border: 1px solid black;
+
+        position:sticky;
+        top:0px;
 
         @include logo-shadow;
 
