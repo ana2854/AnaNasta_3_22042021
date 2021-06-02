@@ -1,0 +1,356 @@
+/*@import "./utils/functions";*/
+body {
+  max-width: 667px;
+  width: 100%;
+  margin: 0,1%;
+  background-color: #eb0e0e;
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: relative;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.accroche {
+  font-size: 18px;
+}
+
+.accroche__titre {
+  font-weight: bold;
+}
+
+.nav-p {
+  font-weight: bold;
+}
+
+.nav-chiffre {
+  font-size: smaller;
+}
+
+.headerCuisine__fleche {
+  text-decoration: none;
+}
+
+.menus__titre {
+  font-family: 'Shrikhand', cursive;
+  font-size: 24px;
+}
+
+.menus__intitule {
+  line-height: 2px;
+}
+
+.restaurants div > .p {
+  line-height: 3px;
+}
+
+.palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
+  font-weight: bold;
+}
+
+.mention {
+  font-size: small;
+  line-height: 2px;
+}
+
+.presentation p, .prix {
+  font-size: smaller;
+}
+
+.prix {
+  font-weight: bold;
+}
+
+.accroche__bouton {
+  padding: 12px 20px 12px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #9356DC;
+  margin: 10px 0 25px 0;
+}
+
+.btn-commander {
+  -ms-grid-row-align: center;
+  align-self: center;
+  padding: 12px 40px 12px 40px;
+  background-color: #9356DC;
+  border-radius: 40px;
+  color: white;
+  margin: 50px 0 0 0;
+}
+
+.btn-fav {
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0 15px 0 0;
+}
+
+.fa-heart {
+  background-color: transparent;
+  transition-duration: 900ms;
+}
+
+.fa-heart:hover {
+  background-color: #9356DC;
+}
+
+.fa-heart--size {
+  font-size: 24px;
+}
+
+.palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+  position: relative;
+}
+
+.mention {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #99E2D0;
+  padding: 2px 15px 2px 15px;
+}
+
+.headerAccueil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header img {
+  width: 40%;
+}
+
+.headerA__logoOMF {
+  background-color: white;
+  padding: 12px;
+  box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+}
+
+.headerA__map {
+  flex: 100%;
+  background-color: #a59a9a;
+}
+
+.headerA__map > .fa-map-marker-alt {
+  padding: 10px;
+}
+
+.headerA__map > input {
+  border: transparent;
+  background-color: transparent;
+  padding: 0 0 0 15px;
+  color: black;
+}
+
+:-ms-input-placeholder {
+  background-color: #a59a9a;
+  padding: 0 0 0 15px;
+  color: black;
+  font-weight: bold;
+}
+
+::-moz-placeholder {
+  background-color: #a59a9a;
+  padding: 0 0 0 15px;
+  color: black;
+  font-weight: bold;
+}
+
+::placeholder {
+  background-color: #a59a9a;
+  padding: 0 0 0 15px;
+  color: black;
+  font-weight: bold;
+}
+
+header .headerMenus {
+  position: sticky;
+  top: 80px;
+}
+
+.headerMenus__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+}
+
+.fa-arrow-left {
+  color: black;
+}
+
+.headerM__fleche {
+  width: 30%;
+}
+
+.headerM__logoOMF > img {
+  width: 60%;
+  padding: 8px 8px;
+}
+
+.headerMenus__photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #aaaaf3;
+}
+
+footer img {
+  width: 22%;
+  padding: 15px 0 0 0;
+}
+
+.footer__logo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+}
+
+.fa-utensils {
+  margin: 0 12px 0 0;
+  font-size: 10px;
+}
+
+.fa-hands-helping {
+  font-size: 9px;
+  margin: 0 8px 0 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-accueil, .footer-menus {
+  background-color: rgba(51, 48, 48, 0.918);
+  color: white;
+  padding: 5px 10px 25px 15px;
+}
+
+nav {
+  background-color: white;
+  padding: 25px 25px 25px 15px;
+}
+
+.nav-p {
+  flex: 70%;
+}
+
+.nav-chiffre {
+  position: relative;
+  right: 8px;
+  margin-right: 5px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 4px 1px 4px 1px;
+  background-color: #a52a86;
+  color: white;
+  flex: 0.5%;
+}
+
+.nav-logo {
+  text-align: center;
+  margin-right: 10px;
+  flex: 7%;
+}
+
+.nav__choisir, .nav__composer, .nav__deguster {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 15px 0;
+  padding: 10px 0 10px 0;
+  border-radius: 25px;
+  background-color: #dad0d0;
+  position: relative;
+  left: 8px;
+  box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
+}
+
+.accroche {
+  text-align: center;
+  background-color: #dad0d0;
+  padding: 20px;
+}
+
+.accroche__titre {
+  margin: 15px;
+}
+
+.restaurants {
+  background-color: #dad0d0;
+  padding: 25px 15px 55px 15px;
+}
+
+.restaurants img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 150px;
+}
+
+.palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 0 12px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+  border: 3px solid red;
+}
+
+.restaurants div > .p {
+  padding: 0 0 0 15px;
+}
+
+.restaurants div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.menus {
+  background-color: #dad0d0;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 10px 70px 10px;
+  border: 5px solid yellow;
+}
+
+.menus__titre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px 0 0px;
+}
+
+.menus__intitule {
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+}
+
+.presentation, .prix {
+  margin: 0 15px 0 10px;
+}
+
+.prix {
+  align-self: flex-end;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL21haW4uc2NzcyIsIi4uL2Jhc2UvX2Jhc2Uuc2NzcyIsIi4uL21haW4uY3NzIiwiLi4vYmFzZS9fdHlwb2dyYXBoeS5zY3NzIiwiLi4vY29tcG9uZW50cy9fYnV0dG9ucy5zY3NzIiwiLi4vdXRpbHMvX3ZhcmlhYmxlcy5zY3NzIiwiLi4vY29tcG9uZW50cy9fYmFubmVyLnNjc3MiLCIuLi9sYXlvdXQvX2hlYWRlci5zY3NzIiwiLi4vbGF5b3V0L19oZWFkZXJNLnNjc3MiLCIuLi9sYXlvdXQvX2Zvb3Rlci5zY3NzIiwiLi4vbGF5b3V0L19uYXYuc2NzcyIsIi4uL3BhZ2VzL19jb250YWluZXJBY2N1ZWlsLnNjc3MiLCIuLi91dGlscy9fbWl4aW5zLnNjc3MiLCIuLi9wYWdlcy9fY29udGFpbmVyTWVudXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSwrQkFBQTtBQ0RBO0VBRUksZ0JBQWdCO0VBRWhCLFdBQVc7RUFFWCxZQUFXO0VBRVgseUJBQWlDO0VBS3pCLHNCQUFlO0VBR3ZCLHVCQUFrQjtFQUVqQixrQkFBQTtBQ1JMOztBQUVBO0VDVkksaUNBQWU7RUFDbEIsZUFBQTtBRFlEOztBQUVBO0VDVkMsZUFBQTtBRFlEOztBQUVBO0VDVkMsaUJBQUE7QURZRDs7QUFFQTtFQ1ZDLGlCQUFBO0FEWUQ7O0FBRUE7RUNWQyxrQkFBQTtBRFlEOztBQUVBO0VDVEMscUJBQUE7QURXRDs7QUFFQTtFQ1RJLGlDQUFlO0VBQ2QsZUFBQTtBRFdMOztBQUVBO0VDVEMsZ0JBQUE7QURXRDs7QUFFQTtFQ1JDLGdCQUFBO0FEVUQ7O0FBRUE7RUNQQyxpQkFBQTtBRFNEOztBQUVBO0VDUEksZ0JBQWdCO0VBQ25CLGdCQUFBO0FEU0Q7O0FBRUE7RUNQQyxrQkFBQTtBRFNEOztBQUVBO0VDUEMsaUJBQUE7QURTRDs7QUFFQTtFRWhFSSw0QkFBbUI7RUFDbkIsbUJBQVc7RUFDWCxZQUFXO0VBQ1gsaUJBQWdCO0VBQ2hCLHlCQUFxQjtFQUN4QixxQkFBQTtB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 */

@@ -12,6 +12,8 @@ header .headerMenus {
 
         border: 1px solid black;
 
+        @include logo-shadow;
+
     }
 
     .fa-arrow-left {
@@ -27,6 +29,8 @@ header .headerMenus {
         padding: 8px 8px;
 
     }
+
+   
 
     .headerMenus__photo img {
         object-fit: cover;

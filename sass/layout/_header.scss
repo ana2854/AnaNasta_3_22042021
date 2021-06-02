@@ -16,6 +16,8 @@ header img {
    
     background-color:white;
     padding: 12px;
+
+    @include logo-shadow;
        
 }
 

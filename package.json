@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass":"sass --watch ./sass/main.scss:./public/main.css",
+    "prefix":"postcss ./public/main.css --use autoprefixer -d ./public/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "author": "",
   "license": "ISC",
+  "browerslist":"last 4 versions",
   "bugs": {
     "url": "https://github.com/Ana8481/AnaNasta_3_22042021/issues"
   },
