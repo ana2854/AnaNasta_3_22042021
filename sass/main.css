@@ -201,12 +201,15 @@ header img {
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
-  border: 1px solid black;
+  -webkit-box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+          box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+}
+
+.headerMenus {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  -webkit-box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
-          box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+  z-index: -1;
 }
 
 .fa-arrow-left {
@@ -227,7 +230,6 @@ header img {
      object-fit: cover;
   width: 100%;
   height: 200px;
-  border: 1px solid #aaaaf3;
 }
 
 footer img {

@@ -6,13 +6,16 @@
         align-items: center;
         background-color: white;
 
-        border: 1px solid black;
-
-        position:sticky;
-        top:0px;
+       
 
         @include logo-shadow;
 
+    }
+
+    .headerMenus {
+        position:sticky;
+        top:0px;
+        z-index: -1;
     }
 
     .fa-arrow-left {
@@ -35,9 +38,6 @@
         object-fit: cover;
         width: 100%;
         height: 200px;
-
-        border:1px solid rgb(170, 170, 243);
-
        
 
     }
