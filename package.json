@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass":"sass --watch ./sass/main.scss:./public/main.css",
-    "prefix":"postcss ./public/main.css --use autoprefixer -d ./public/prefixed/"
+    "sass":"sass --watch ./sass/main.scss:./public/main.css"
   },
   "repository": {
     "type": "git",
