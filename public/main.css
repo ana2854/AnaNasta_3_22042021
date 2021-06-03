@@ -1,9 +1,7 @@
 /*@import "./utils/functions";*/
 body {
-  max-width: 667px;
   width: 100%;
   margin: 0;
-  background-color: #eeea0a;
   box-sizing: border-box;
   position: relative;
 }
@@ -149,36 +147,53 @@ header img {
   font-weight: bold;
 }
 
+.headerMenus {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
 .headerMenus__top {
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: white;
+  padding-left: 5px;
   box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
 }
 
-.headerMenus {
+aside {
   position: sticky;
-  top: 0px;
+  top: 40px;
   z-index: -1;
 }
 
-/*.fa-arrow-left {
-    color:black;
-}*/
+.menus-photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.fa-arrow-left {
+  color: black;
+  width: 5%;
+}
+
 .headerM__fleche {
-  width: 30%;
+  border: 1px solid black;
+}
+
+.headerM__logoOMF {
+  border: 3px solid violet;
+  text-align: center;
+  flex: 80%;
 }
 
 .headerM__logoOMF > img {
-  width: 60%;
+  width: 20%;
   padding: 8px 8px;
-}
-
-.headerMenus__photo img {
-  object-fit: cover;
-  width: 100%;
-  height: 200px;
+  border: 3px solid #1b0ce9;
 }
 
 footer img {
