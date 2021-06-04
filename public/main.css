@@ -96,7 +96,8 @@ body {
   align-self: center;
   position: relative;
   right: 15px;
-  color: red;
+  transition-duration: 900ms;
+  color: #9356DC;
   opacity: 0;
 }
 .btn-fav--active:hover {
@@ -114,8 +115,9 @@ body {
   z-index: 1;
   right: 15px;
   bottom: 25px;
-  color: red;
+  color: #9356DC;
   opacity: 0;
+  transition-duration: 900ms;
 }
 .btn-accueil--active:hover {
   opacity: 1;
