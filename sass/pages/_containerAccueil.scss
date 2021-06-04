@@ -32,7 +32,8 @@
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+
+
 
         @include box-shadow;
 
@@ -43,11 +44,22 @@
 
     }
 
+   
+
     
     .restaurants div>.p {
         padding: 0 0 0 15px;
+        border:4px solid greenyellow;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
+    div>.p h4{
+        margin-bottom: 4px;
+    }
     
 
     .restaurants div>a {

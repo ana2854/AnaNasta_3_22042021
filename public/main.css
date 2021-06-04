@@ -41,7 +41,7 @@ body {
 }
 
 .restaurants div > .p {
-  line-height: 3px;
+  line-height: 0.5px;
 }
 
 .palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil {
@@ -67,7 +67,12 @@ body {
   color: white;
   font-weight: bold;
   background-color: #9356DC;
+  border: #9356DC;
   margin: 10px 0 25px 0;
+  box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
+}
+.accroche__bouton--active:hover {
+  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
 }
 
 .btn-commander {
@@ -81,20 +86,32 @@ body {
 
 .btn-fav {
   align-self: center;
-  margin: 0 15px 0 0;
+  position: absolute;
+  right: 15px;
 }
 .btn-fav--size {
   font-size: 24px;
 }
 
-.fa-heart {
-  background-color: transparent;
-  transition-duration: 900ms;
-}
-.fa-heart:hover {
-  background-color: #9356DC;
+.btn-fav-active {
+  align-self: center;
+  position: relative;
+  right: 15px;
+  color: red;
 }
 
+/*
+.fa-heart{
+    background-color: transparent;
+    transition-duration:900ms;
+
+
+        &:hover {
+             background-color:$color-primary;
+
+        }
+}
+*/
 .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
   position: relative;
 }
@@ -299,13 +316,20 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
   border: 3px solid red;
 }
 
 .restaurants div > .p {
   padding: 0 0 0 15px;
+  border: 4px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div > .p h4 {
+  margin-bottom: 4px;
 }
 
 .restaurants div > a {
@@ -335,6 +359,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+  border: 5px solid lightslategrey;
 }
 
 .menus__intitule {

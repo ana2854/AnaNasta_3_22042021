@@ -5,7 +5,13 @@
     color:white;
     font-weight: bold;
     background-color:$color-primary;
+    border:$color-primary;
     margin: 10px 0 25px 0;
+    @include nav-shadow;
+    &--active:hover {
+        @include box-shadow;
+    }
+    
 }
 
 
@@ -21,12 +27,26 @@
 
 .btn-fav {
     align-self: center;
-    margin: 0 15px 0 0;
+    position: absolute;
+    right:15px;
+
     &--size {
         font-size: 24px;
     }
+
 }
 
+.btn-fav-active {
+        align-self: center;
+        position: relative;
+        right:15px;
+        color: red;
+
+    }
+
+
+
+/*
 .fa-heart{
     background-color: transparent;
     transition-duration:900ms;
@@ -37,7 +57,7 @@
             
         }
 }
-
+*/
 
 
 
