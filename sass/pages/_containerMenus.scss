@@ -42,8 +42,8 @@ padding: 8px 10px 70px 10px;
 
     display: flex;
     flex-direction: row;
-   /* flex-wrap: wrap;
-    justify-content: space-between;*/
+   /* flex-wrap: wrap;*/
+    justify-content: space-between;
 
     padding:0px;
 
@@ -68,22 +68,24 @@ padding: 8px 10px 70px 10px;
 }
 
 .boite {
-
+    display: flex;
     border:2px solid rgb(255, 0, 255);
 }
 
 
 .prix {
-   align-self: flex-end;
   
+    align-self: flex-end;
 
     border:2px solid rgb(26, 24, 24);
 }
 
 .checked {
-   align-self: flex-end;
+  
 
-   background-color: rgb(11, 230, 11);
-   color: white;
+   background-color: $color-tertiary;
    padding: 15px;
+   font-size: 20px;
+   color:white;
+
 }
