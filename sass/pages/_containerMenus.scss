@@ -42,7 +42,7 @@ padding: 8px 10px 70px 10px;
 
     display: flex;
     flex-direction: row;
-   /* flex-wrap: wrap;*/
+ 
     justify-content: space-between;
 
     padding:0px;
@@ -51,20 +51,36 @@ padding: 8px 10px 70px 10px;
 
 
     border:2px solid blue;
+ min-width: 0;
+  
 
 }
 
-.presentation {
-    text-overflow: ellipsis;
+    .presentation{
+
+    display: block;
+    background-color: burlywood;
+   
+
+   
+   overflow: hidden;
+    width: 100%;
 
     border:2px solid rgb(102, 0, 128);
+
+    }
+
+.presentation__titre,.presentation__description {
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
     
-
-
 }
 
+
+
 .presentation, .prix {
-    margin: 0 15px 0 10px;
+    margin: 0 15px 0 5px;
 }
 
 .boite {
@@ -76,6 +92,8 @@ padding: 8px 10px 70px 10px;
 .prix {
   
     align-self: flex-end;
+    margin-right: 4px;
+   
 
     border:2px solid rgb(26, 24, 24);
 }
@@ -84,8 +102,11 @@ padding: 8px 10px 70px 10px;
   
 
    background-color: $color-tertiary;
-   padding: 15px;
-   font-size: 20px;
+   border-color:black;
+   /*padding: 15px;*/
+   padding: 15px 30px 15px 30px;
+   border-radius:0 15px 15px 0;
+   font-size: 23px;
    color:white;
 
 }
