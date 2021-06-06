@@ -9,7 +9,7 @@
     margin: 10px 0 25px 0;
     @include nav-shadow;
     &--active:hover {
-        background-image: linear-gradient(2deg,$color-primary,$color-secondary);
+       @include lighten-color;
         @include box-shadow;
     }
     
@@ -26,6 +26,8 @@
     margin:50px 0 0 0;
 }
 
+
+
 .btn-fav {
     align-self: center;
     position: absolute;
@@ -40,14 +42,18 @@
         position: relative;
         right:15px;
         transition-duration: 900ms;
-        color:$color-primary;
+        color: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+       
         opacity: 0;
         &:hover {
             opacity: 1;
+            
         }
     }
 
 }
+
+
 
 
 .btn-accueil {
