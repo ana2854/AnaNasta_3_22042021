@@ -9,6 +9,7 @@
     margin: 10px 0 25px 0;
     @include nav-shadow;
     &--active:hover {
+        background-image: linear-gradient(2deg,$color-primary,$color-secondary);
         @include box-shadow;
     }
     
