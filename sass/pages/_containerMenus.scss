@@ -10,6 +10,10 @@ flex-direction: column;
 justify-content: space-around;
 
 padding: 8px 10px 70px 10px;
+
+@include ecran-large {
+    padding: 10px 40px 70px 40px;
+}
     }
 
 .menus-section-titre::after {

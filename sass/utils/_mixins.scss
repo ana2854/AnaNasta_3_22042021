@@ -20,3 +20,10 @@
 @mixin gradient {
     color: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%)
 }
+
+$breakpoints: (ecran-large:1024px);
+@mixin ecran-large {
+    @media screen and (min-width:map-get($breakpoints, ecran-large)) {
+        @content;
+    }
+}

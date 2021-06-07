@@ -1,7 +1,6 @@
-/*@import "./utils/functions";*/
 body {
   width: 100%;
-  margin: 0;
+  margin: auto;
   box-sizing: border-box;
   position: relative;
 }
@@ -33,7 +32,7 @@ body {
 
 .nom-restaurant {
   font-family: "Shrikhand", cursive;
-  font-size: 24px;
+  font-size: 5vmin;
 }
 
 .menus__intitule {
@@ -387,6 +386,11 @@ div > .p h4 {
   flex-direction: column;
   justify-content: space-around;
   padding: 8px 10px 70px 10px;
+}
+@media screen and (min-width: 1024px) {
+  .menus {
+    padding: 10px 40px 70px 40px;
+  }
 }
 
 .menus-section-titre::after {
