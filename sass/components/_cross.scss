@@ -1,17 +1,23 @@
 .checked {
         background-color: $color-tertiary;
         
-        /*padding: 15px;*/
-        padding: 15px 40px 15px 40px;
+
+        padding: 25px 40px 15px 40px;
         border-radius:0 15px 15px 0;
-        font-size: 23px;
+        font-size: 30px;
+        text-align: center;
         color:white;
+        
+        &:hover {
+            transform: translateX(-100px);
+
+        }
        
      
      }
 
      .fa-check-circle:hover {
-         transform: rotate(-360deg);
+         transform: rotate(360deg);
 
         transition: all 2s linear;
 
