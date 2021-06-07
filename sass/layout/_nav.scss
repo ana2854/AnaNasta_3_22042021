@@ -2,6 +2,11 @@
     nav {
         background-color: white;
         padding: 25px 25px 25px 15px;
+
+
+        @include ecran-large {
+            padding: 25px 200px 25px 200px;
+        }
            
     }
 
