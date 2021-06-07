@@ -149,6 +149,19 @@ body {
   padding: 2px 15px 2px 15px;
 }
 
+.checked {
+  background-color: #99E2D0;
+  /*padding: 15px;*/
+  padding: 15px 40px 15px 40px;
+  border-radius: 0 15px 15px 0;
+  font-size: 23px;
+  color: white;
+}
+
+.fa-check-circle:hover {
+  transform: rotate(45deg);
+}
+
 .headerAccueil {
   display: flex;
   flex-direction: column;
@@ -157,7 +170,8 @@ body {
 }
 
 header img {
-  width: 40%;
+  width: auto;
+  height: auto;
 }
 
 .headerA__logoOMF {
@@ -234,8 +248,8 @@ aside {
 
 .headerM__logoOMF > img {
   padding: 7px 7px;
-  min-width: 25%;
-  max-width: 25%;
+  width: auto;
+  height: auto;
   border: 3px solid #1b0ce9;
 }
 
@@ -313,6 +327,9 @@ nav {
   position: relative;
   left: 8px;
   box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
+}
+.nav__choisir:hover, .nav__composer:hover, .nav__deguster:hover {
+  background-color: #e9c6fd;
 }
 
 .accroche {
@@ -403,7 +420,7 @@ div > .p h4 {
 
 .presentation {
   display: block;
-  background-color: burlywood;
+  background-color: #05e2ff;
   min-width: 0;
   border: 2px solid #660080;
 }
@@ -427,16 +444,6 @@ div > .p h4 {
   align-self: flex-end;
   margin-right: 4px;
   border: 2px solid #1a1818;
-}
-
-.checked {
-  background-color: #99E2D0;
-  border-color: black;
-  /*padding: 15px;*/
-  padding: 15px 40px 15px 40px;
-  border-radius: 0 15px 15px 0;
-  font-size: 23px;
-  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

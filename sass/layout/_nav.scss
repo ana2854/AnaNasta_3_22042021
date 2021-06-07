@@ -69,6 +69,8 @@
         
             @include nav-shadow;
         
-
+        &:hover {
+            background-color:rgb(233, 198, 253);
+        }
       
     }

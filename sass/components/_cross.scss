@@ -1,0 +1,14 @@
+.checked {
+        background-color: $color-tertiary;
+        
+        /*padding: 15px;*/
+        padding: 15px 40px 15px 40px;
+        border-radius:0 15px 15px 0;
+        font-size: 23px;
+        color:white;
+     
+     }
+      
+     .fa-check-circle:hover {
+         transform: rotate(45deg);
+     }

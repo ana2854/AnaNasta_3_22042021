@@ -59,7 +59,7 @@ padding: 8px 10px 70px 10px;
     .presentation{
 
     display: block;
-    background-color: burlywood;
+    background-color: rgb(5, 226, 255);
     min-width: 0;
   
    
@@ -96,15 +96,3 @@ padding: 8px 10px 70px 10px;
     border:2px solid rgb(26, 24, 24);
 }
 
-.checked {
-  
-
-   background-color: $color-tertiary;
-   border-color:black;
-   /*padding: 15px;*/
-   padding: 15px 40px 15px 40px;
-   border-radius:0 15px 15px 0;
-   font-size: 23px;
-   color:white;
-
-}
