@@ -253,12 +253,24 @@ aside {
 }
 
 footer img {
-  width: 22%;
+  width: auto;
+  height: auto;
   padding: 15px 0 0 0;
+}
+@media screen and (min-width: 1024px) {
+  footer img {
+    padding: 15px 0 15px 0;
+  }
 }
 
 .footer__logo {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+}
+@media screen and (min-width: 1024px) {
+  .footer__logo {
+    flex: 100%;
+    text-align: center;
+  }
 }
 
 .fa-utensils {
@@ -280,6 +292,14 @@ footer img {
   background-color: rgba(51, 48, 48, 0.918);
   color: white;
   padding: 5px 10px 25px 15px;
+}
+@media screen and (min-width: 1024px) {
+  .footer-accueil, .footer-menus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 nav {
