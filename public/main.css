@@ -80,6 +80,7 @@ body {
   align-self: center;
   padding: 12px 40px 12px 40px;
   background-color: #9356DC;
+  border: #9356DC;
   border-radius: 40px;
   color: white;
   box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
@@ -111,6 +112,7 @@ body {
 }
 .btn-fav--active:hover {
   opacity: 1;
+  transform: scaleY(1);
 }
 
 .btn-accueil {
@@ -174,7 +176,8 @@ body {
 }
 
 .fa-check-circle:hover {
-  transform: rotate(45deg);
+  transform: rotate(-360deg);
+  transition: all 2s linear;
 }
 
 .headerAccueil {

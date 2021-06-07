@@ -20,12 +20,15 @@
     align-self: center;
     padding: 12px 40px 12px 40px;
     background-color:$color-primary;
+    border: $color-primary;
     border-radius: 40px;
     color:white;
     @include nav-shadow;
+    
     &:hover {
         @include lighten-color;
         @include box-shadow;
+
     }
 
     margin:50px 0 0 0;
@@ -57,6 +60,7 @@
        
         &:hover {
             opacity: 1;
+            transform: scaleY(1);
             
         }
     }
