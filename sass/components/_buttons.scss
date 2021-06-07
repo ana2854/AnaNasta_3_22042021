@@ -22,6 +22,11 @@
     background-color:$color-primary;
     border-radius: 40px;
     color:white;
+    @include nav-shadow;
+    &:hover {
+        @include lighten-color;
+        @include box-shadow;
+    }
 
     margin:50px 0 0 0;
 }
@@ -32,7 +37,6 @@
     align-self: center;
     position: absolute;
     right:15px;
-   
     &--size {
         font-size: 24px;
     }
@@ -41,8 +45,7 @@
        align-self: center;
         position: relative;
         right:15px;
-        transition-duration: 900ms;
-        color: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+       
        
         opacity: 0;
         &:hover {
@@ -67,7 +70,10 @@
         z-index: 1;
         right: 15px;
         bottom: 25px;
-        color: $color-primary;
+        background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+        color: transparent;
+        -webkit-background-clip: text;
+    
         opacity: 0;
         transition-duration: 900ms;
         &:hover {
@@ -77,19 +83,25 @@
 }
 
 
-
 /*
+
 .fa-heart{
-    background-color: transparent;
+   
+    opacity: 0;
     transition-duration:900ms;
+    background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+    color: transparent;
+    -webkit-background-clip: text;
 
 
         &:hover {
-             background-color:$color-primary;
-            
+             
+             opacity: 1;
+
         }
 }
 */
+
 
 
 
