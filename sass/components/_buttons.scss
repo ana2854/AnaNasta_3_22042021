@@ -37,6 +37,8 @@
     align-self: center;
     position: absolute;
     right:15px;
+   
+    
     &--size {
         font-size: 24px;
     }
@@ -45,9 +47,14 @@
        align-self: center;
         position: relative;
         right:15px;
+
+        background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+        color: transparent;
+        -webkit-background-clip: text;
+        transition-duration: 900ms;
+       opacity: 0;
        
        
-        opacity: 0;
         &:hover {
             opacity: 1;
             

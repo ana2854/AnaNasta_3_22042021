@@ -103,6 +103,10 @@ body {
   align-self: center;
   position: relative;
   right: 15px;
+  background: linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  transition-duration: 900ms;
   opacity: 0;
 }
 .btn-fav--active:hover {
