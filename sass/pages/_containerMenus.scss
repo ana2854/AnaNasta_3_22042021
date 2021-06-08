@@ -58,12 +58,21 @@ padding: 8px 10px 70px 10px;
 
     &:hover{
         .checked {
-            transform-origin: right;
-            transform: translateX(-100px);
+           animation:slide 3s;
+           
 
             background-color: yellow;
     }
   
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-150px);
     }
 }
 

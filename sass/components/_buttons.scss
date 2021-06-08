@@ -4,7 +4,7 @@
     border-radius: 20px;
     color:white;
     font-weight: bold;
-    background-color:$background-color-primary;
+    background-color:$color-primary;
   
     margin: 10px 0 25px 0;
     @include nav-shadow;
@@ -22,7 +22,7 @@
 .btn-commander {
     align-self: center;
     padding: 12px 40px 12px 40px;
-    background-color:$background-color-primary;
+    background-color:$color-primary;
    
     border-radius: 40px;
     color:white;
@@ -59,7 +59,7 @@
 
         background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
         color: transparent;
-        -webkit-background-clip: text;
+       -moz-background-clip: text;
         transition-duration: 900ms;
        opacity: 0;
        
