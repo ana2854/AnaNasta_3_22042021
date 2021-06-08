@@ -107,16 +107,17 @@ body {
 .btn-fav--active {
   align-self: center;
   position: relative;
-  right: 15px;
+  right: 6px;
   background: linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
+  padding: 8px;
   color: transparent;
-  -moz-background-clip: text;
+  -webkit-background-clip: text;
   transition-duration: 900ms;
   opacity: 0;
 }
 .btn-fav--active:hover {
   opacity: 1;
-  transform: scaleY(1);
+  transform: scale(1.2, 1.2);
 }
 
 .btn-accueil {
@@ -128,16 +129,18 @@ body {
 .btn-accueil--active {
   position: absolute;
   z-index: 1;
-  right: 15px;
-  bottom: 25px;
+  right: 7px;
+  bottom: 17px;
   background: linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
   color: transparent;
+  padding: 8px;
   -webkit-background-clip: text;
   opacity: 0;
   transition-duration: 900ms;
 }
 .btn-accueil--active:hover {
   opacity: 1;
+  transform: scale(1.1, 1.1);
 }
 
 /*
@@ -177,6 +180,9 @@ body {
   font-size: 30px;
   text-align: center;
   color: white;
+  position: absolute;
+  right: 40px;
+  z-index: 1;
 }
 
 .fa-check-circle:hover {
@@ -489,9 +495,9 @@ div > .p h4 {
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
   border: 2px solid blue;
 }
-.menus__intitule:hover .checked {
+.menus__intitule:hover .prix, .menus__intitule:hover .checked {
+  display: unset;
   animation: slide 3s;
-  background-color: yellow;
 }
 
 @keyframes slide {

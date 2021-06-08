@@ -55,18 +55,19 @@
     &--active {
        align-self: center;
         position: relative;
-        right:15px;
+        right:6px;
 
         background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
+        padding:8px;
         color: transparent;
-       -moz-background-clip: text;
+       -webkit-background-clip: text;
         transition-duration: 900ms;
        opacity: 0;
        
        
         &:hover {
             opacity: 1;
-            transform: scaleY(1);
+            transform: scale(1.2,1.2);
             
         }
     }
@@ -85,16 +86,18 @@
     &--active {
         position: absolute;
         z-index: 1;
-        right: 15px;
-        bottom: 25px;
+        right: 7px;
+        bottom: 17px;
         background: linear-gradient(45deg, $color-primary 0%, $color-secondary 100%);
         color: transparent;
+        padding:8px;
         -webkit-background-clip: text;
     
         opacity: 0;
         transition-duration: 900ms;
         &:hover {
             opacity: 1;
+            transform: scale(1.1,1.1);
         }
     }
 }
