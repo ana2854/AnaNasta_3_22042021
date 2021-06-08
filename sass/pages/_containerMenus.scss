@@ -56,10 +56,13 @@ padding: 8px 10px 70px 10px;
 
     border:2px solid blue;
 
+    position: relative;
+    z-index: 1;
+
     &:hover{
         .prix,.checked {
             display: unset;
-           animation:slide 3s;
+           
            
 
     }
@@ -67,15 +70,7 @@ padding: 8px 10px 70px 10px;
     }
 }
 
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-150px);
-    }
-   
-}
+
 
     .presentation{
 
