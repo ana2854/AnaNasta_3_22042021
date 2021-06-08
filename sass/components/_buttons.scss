@@ -4,10 +4,13 @@
     border-radius: 20px;
     color:white;
     font-weight: bold;
-    background-color:$color-primary;
-    border:$color-primary;
+    background-color:$background-color-primary;
+  
     margin: 10px 0 25px 0;
     @include nav-shadow;
+    &--outline {
+          border:$color-primary;
+    }
     &--active:hover {
        @include lighten-color;
         @include box-shadow;
@@ -19,11 +22,14 @@
 .btn-commander {
     align-self: center;
     padding: 12px 40px 12px 40px;
-    background-color:$color-primary;
-    border: $color-primary;
+    background-color:$background-color-primary;
+   
     border-radius: 40px;
     color:white;
     @include nav-shadow;
+    &--outline {
+        border: $color-primary;
+    }
     
     &:hover {
         @include lighten-color;

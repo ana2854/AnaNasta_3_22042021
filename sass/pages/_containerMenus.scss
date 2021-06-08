@@ -12,7 +12,7 @@ justify-content: space-around;
 padding: 8px 10px 70px 10px;
 
 @include ecran-large {
-    padding: 10px 60px 70px 60px;
+    padding: 10px 90px 70px 90px;
 }
     }
 
@@ -56,8 +56,15 @@ padding: 8px 10px 70px 10px;
 
     border:2px solid blue;
 
-  
+    &:hover{
+        .checked {
+            transform-origin: right;
+            transform: translateX(-100px);
 
+            background-color: yellow;
+    }
+  
+    }
 }
 
     .presentation{
