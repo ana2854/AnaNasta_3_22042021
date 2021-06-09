@@ -37,20 +37,37 @@ padding: 8px 10px 70px 10px;
 
 .menus__entrees {
     
-    animation: anim-entrees 5s;
+    animation: anim-fade 3s;
+    animation: anim-up 3s;
+    transition: transform 3s;
+
+    
 }
 
-@keyframes anim-entrees{
+@keyframes anim-fade{
     0% {
         opacity: 0;
+        
     }
+  
     100% {
         opacity: 1;
     }
 }
 
+@keyframes anim-up {
+    0% {
+        transform:translateY(5px) ;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
 .menus__plats {
-    animation: anim-plats 6s;
+    animation: anim-plats 5s;
 }
 
 @keyframes anim-plats {
@@ -59,6 +76,19 @@ padding: 8px 10px 70px 10px;
     }
     100% {
         opacity: 1;
+    }
+}
+
+.menus__desserts {
+ animation: anim-entrees 7s;
+}
+
+@keyframes anim-entrees {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
     }
 }
 
@@ -95,9 +125,6 @@ padding: 8px 10px 70px 10px;
   
     min-width: 0;
   
-   
-
-    border:2px solid rgb(102, 0, 128);
 
     }
 
