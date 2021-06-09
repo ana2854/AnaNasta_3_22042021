@@ -37,50 +37,50 @@ padding: 8px 10px 70px 10px;
 
 .menus__entrees {
     
-    animation: anim-fade 3s;
-    animation: anim-up 3s;
-    transition: transform 3s;
+    animation:animEntrees 3s;
 
-    
+ 
 }
 
-@keyframes anim-fade{
+@keyframes animEntrees{
     0% {
         opacity: 0;
-        
+        transform:translateY(5px)
     }
   
     100% {
         opacity: 1;
-    }
-}
-
-@keyframes anim-up {
-    0% {
-        transform:translateY(5px) ;
-    }
-    100% {
         transform: translateY(0);
     }
 }
 
 
 
+
 .menus__plats {
-    animation: anim-plats 5s;
+    animation: animPlats 5s;
+   
 }
 
-@keyframes anim-plats {
+@keyframes animPlats{
     0% {
         opacity: 0;
+        transform:translateY(5px)
     }
+  
     100% {
         opacity: 1;
+        transform: translateY(0);
     }
 }
+
+
+
+
 
 .menus__desserts {
  animation: anim-entrees 7s;
+ animation: anim-up 7s;
 }
 
 @keyframes anim-entrees {
