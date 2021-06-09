@@ -14,9 +14,6 @@
         
         flex:70%;
 
-
-        border:3px solid blue;
-
         
     }
 
@@ -40,7 +37,6 @@
 
 
 
-        border:3px solid red;
     }
 
     .nav-logo {
@@ -48,7 +44,7 @@
         margin-right: 10px;
         flex:7%;
 
-        border:3px solid rgb(3, 190, 3);
+       
         &:hover {
             color:$color-primary;
         }

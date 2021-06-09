@@ -83,15 +83,15 @@ body {
   align-self: center;
   padding: 12px 40px 12px 40px;
   background-color: #9356DC;
+  margin: 50px 0 0 0;
   border-radius: 40px;
   color: white;
   box-shadow: 3px 4px 9px 3px rgba(0, 0, 0, 0.54);
-  margin: 50px 0 0 0;
 }
 .btn-commander--outline {
-  border: #9356DC;
+  border: 1px solid #9356DC;
 }
-.btn-commander:hover {
+.btn-commander--outline:hover {
   background: #9356DC;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
@@ -158,21 +158,43 @@ body {
 
 .checked::before {
   content: "";
-  font-family: "Font Awesome 5 Free";
+  /*font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20%;
-  background-color: #99E2D0;
+  display: block;
+
+  top:0;
+  right:0;
+  width: 10%;
+  height:100%;
+
+
   font-size: 30px;
-  text-align: center;
-  color: white;
+
+  color:red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $color-tertiary;
+
+  position: absolute;
+  z-index: -1;*/
 }
 
-.fa-check-circle:hover {
-  transform: rotate(360deg);
-  /*transition: all 2s linear;*/
+/*transition: all 2s linear;*/
+.fa-check-circle {
+  color: red;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.checked {
+  width: 45px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headerAccueil {
@@ -220,7 +242,7 @@ header img {
   position: fixed;
   width: 100%;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .headerMenus__top {
@@ -249,12 +271,7 @@ aside {
   width: 5%;
 }
 
-.headerM__fleche {
-  border: 1px solid black;
-}
-
 .headerM__logoOMF {
-  border: 3px solid violet;
   text-align: center;
   flex: 80%;
 }
@@ -263,7 +280,6 @@ aside {
   padding: 7px 7px;
   width: auto;
   height: auto;
-  border: 3px solid #1b0ce9;
 }
 
 footer img {
@@ -328,7 +344,6 @@ nav {
 
 .nav-p {
   flex: 70%;
-  border: 3px solid blue;
 }
 
 .nav-chiffre {
@@ -341,14 +356,12 @@ nav {
   background-color: #9356DC;
   color: white;
   flex: 0.5%;
-  border: 3px solid red;
 }
 
 .nav-logo {
   text-align: center;
   margin-right: 10px;
   flex: 7%;
-  border: 3px solid #03be03;
 }
 .nav-logo:hover {
   color: #9356DC;
@@ -415,7 +428,6 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
-  border: 3px solid red;
 }
 @media screen and (min-width: 1024px) {
   .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
@@ -425,7 +437,6 @@ nav {
 
 .restaurants div > .p {
   padding: 0 0 0 15px;
-  border: 4px solid greenyellow;
   display: block;
 }
 
@@ -466,9 +477,32 @@ div > .p h4 {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  border: 5px solid lightslategrey;
 }
 
+.menus__entrees {
+  animation: anim-entrees 5s;
+}
+
+@keyframes anim-entrees {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.menus__plats {
+  animation: anim-plats 6s;
+}
+
+@keyframes anim-plats {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .menus__intitule {
   background-color: white;
   border-radius: 15px;
@@ -482,13 +516,9 @@ div > .p h4 {
   position: relative;
   z-index: 1;
 }
-.menus__intitule:hover .prix, .menus__intitule:hover .checked {
-  display: unset;
-}
 
 .presentation {
   display: block;
-  background-color: #05e2ff;
   min-width: 0;
   border: 2px solid #660080;
 }

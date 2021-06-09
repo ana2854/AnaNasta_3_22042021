@@ -33,10 +33,34 @@ padding: 8px 10px 70px 10px;
     position: relative;
 
 
-    border:5px solid lightslategrey;
-
 }
 
+.menus__entrees {
+    
+    animation: anim-entrees 5s;
+}
+
+@keyframes anim-entrees{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menus__plats {
+    animation: anim-plats 6s;
+}
+
+@keyframes anim-plats {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .menus__intitule {
 
@@ -59,15 +83,8 @@ padding: 8px 10px 70px 10px;
     position: relative;
     z-index: 1;
 
-    &:hover{
-        .prix,.checked {
-            display: unset;
-           
-           
-
-    }
-  
-    }
+   
+    
 }
 
 
@@ -75,7 +92,7 @@ padding: 8px 10px 70px 10px;
     .presentation{
 
     display: block;
-    background-color: rgb(5, 226, 255);
+  
     min-width: 0;
   
    

@@ -23,22 +23,24 @@
     align-self: center;
     padding: 12px 40px 12px 40px;
     background-color:$color-primary;
-   
+    margin:50px 0 0 0;
     border-radius: 40px;
     color:white;
     @include nav-shadow;
-    &--outline {
-        border: $color-primary;
-    }
+
+        &--outline {
+        border: 1px solid $color-primary;
+        }
+        
     
-    &:hover {
+    &--outline:hover {
         @include lighten-color;
         @include box-shadow;
 
     }
-
-    margin:50px 0 0 0;
+   
 }
+
 
 
 
