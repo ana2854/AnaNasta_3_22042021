@@ -113,7 +113,7 @@ padding: 8px 10px 70px 10px;
     @include box-shadow;
 
 
-    border:2px solid blue;
+
 
     position: relative;
     z-index: 1;
@@ -151,7 +151,7 @@ padding: 8px 10px 70px 10px;
 .boite {
     display: flex;
     flex-direction: row;
-    border:2px solid rgb(255, 0, 255);
+    border:0.5px solid rgb(255, 0, 255);
 }
 
 
