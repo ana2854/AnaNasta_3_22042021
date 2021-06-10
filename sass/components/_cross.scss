@@ -1,4 +1,4 @@
-.checked::before {
+
       /*content:"\f058";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
@@ -23,7 +23,7 @@
       position: absolute;
       z-index: -1;*/
 
-}
+
 
 
 
@@ -33,8 +33,8 @@
       color: red;
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
-      font-size: 20px;
-      padding:20px;
+      font-size: 30px;
+      padding:10px;
 
 
       border: 1px solid black;
@@ -64,24 +64,37 @@
 
 .checked {
       
-      padding:0 70px 0 70px;
+      padding:15px 50px 0 50px;
       background-color: rgb(65, 108, 225);
       display: flex;
       justify-content: center;
       align-items: center;
-     display: none;
+      display: none;
 
 
       border: 2px solid rgb(255, 136, 0);
 
-
-      transition: transform;
-    
+     
+      /*transition: transform 8s ease-in;*/
+     
+      
 }
+
+@keyframes right-to-left {
+      0% {
+            transform: translateX(100%)
+      }
+      100% {
+            transform:translateX(-0%);
+      }
+}
+
 
 .menus__intitule:hover .boite {
-      transform:translateX(-0%);
-}
+      animation: right-to-left forwards;
+      animation-duration: 1s;
+
+} 
 
 .menus__intitule:hover .checked {
       display:unset;

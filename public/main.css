@@ -154,39 +154,36 @@ body {
   padding: 2px 15px 2px 15px;
 }
 
-.checked::before {
-  /*content:"\f058";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  /*display: block;
+/*content:"\f058";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+/*display: block;
 
-  top:0;
-  right:0;
-  width: 10%;
-  height:100%;
+top:0;
+right:0;
+width: 10%;
+height:100%;
 
 
-  font-size: 30px;
+font-size: 30px;
 
-  color:red;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+color:red;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 
-  background-color: $color-tertiary;
+background-color: $color-tertiary;
 
-  position: absolute;
-  z-index: -1;*/
-}
-
+position: absolute;
+z-index: -1;*/
 /*transition: all 2s linear;*/
 .fa-check-circle {
   color: red;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 30px;
+  padding: 10px;
   border: 1px solid black;
 }
 
@@ -204,18 +201,27 @@ body {
   }
 }
 .checked {
-  padding: 0 70px 0 70px;
+  padding: 15px 50px 0 50px;
   background-color: #416ce1;
   display: flex;
   justify-content: center;
   align-items: center;
   display: none;
   border: 2px solid #ff8800;
-  transition: transform;
+  /*transition: transform 8s ease-in;*/
 }
 
+@keyframes right-to-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 .menus__intitule:hover .boite {
-  transform: translateX(0%);
+  animation: right-to-left forwards;
+  animation-duration: 1s;
 }
 
 .menus__intitule:hover .checked {
