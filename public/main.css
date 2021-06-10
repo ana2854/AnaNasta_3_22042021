@@ -186,6 +186,11 @@ body {
   color: red;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  font-size: 20px;
+}
+
+.fa-check-circle:hover {
+  color: chartreuse;
 }
 
 .checked {
@@ -206,7 +211,7 @@ body {
   justify-content: center;
   align-items: center;
   animation: fadeOut 700ms forwards;
-  animation-delay: 3s;
+  animation-delay: 2700ms;
 }
 
 @keyframes fadeOut {
@@ -238,7 +243,7 @@ h2::before {
   color: #01010e;
   -webkit-text-stroke: 1px #01010f;
   overflow: hidden;
-  animation: animLettre 3s linear;
+  animation: animLettre 3900ms linear forwards;
 }
 
 @keyframes animLettre {

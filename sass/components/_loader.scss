@@ -14,7 +14,7 @@
    align-items: center;
 
    animation: fadeOut 700ms forwards;
-   animation-delay: 3s;
+   animation-delay: 2700ms;
 }
 
 @keyframes fadeOut {
@@ -52,7 +52,7 @@ h2::before {
 	color: rgb(1, 1, 14);
 	-webkit-text-stroke: 1px rgb(1, 1, 15);
 	overflow: hidden;
-	animation: animLettre 3s linear;
+	animation: animLettre 3900ms linear forwards;
 
 }
 
