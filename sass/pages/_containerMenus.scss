@@ -118,6 +118,8 @@ padding: 8px 10px 70px 10px;
     position: relative;
     z-index: 1;
 
+    overflow: hidden;
+
    
     
 }
@@ -148,6 +150,7 @@ padding: 8px 10px 70px 10px;
 
 .boite {
     display: flex;
+    flex-direction: row;
     border:2px solid rgb(255, 0, 255);
 }
 

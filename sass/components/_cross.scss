@@ -1,5 +1,5 @@
 .checked::before {
-      content:"\f058";
+      /*content:"\f058";
       /*font-family: "Font Awesome 5 Free";
       font-weight: 900;
       display: block;
@@ -34,18 +34,45 @@
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       font-size: 20px;
+      padding:20px;
+
+      
       
      
 }
 
+
+
+
+
 .fa-check-circle:hover {
      color: chartreuse;
+     animation: rotate 1s;
+}
+
+@keyframes rotate {
+      from {
+            transform: rotate(0deg);
+      }
+      to {
+            transform: rotate(360deg);
+      }
 }
 
 .checked {
-      width: 45px;
-      background-color: royalblue;
+      display: block;
+      width: 100%;
+      background-color: rgb(65, 108, 225);
       display: flex;
       justify-content: center;
       align-items: center;
+
+     
+
+      transition: transform;
+    
+}
+
+.menus__intitule:hover .boite {
+      transform:translateX(-15px);
 }
