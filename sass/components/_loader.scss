@@ -2,7 +2,8 @@
 .container {
 
     position: absolute;
-    z-index:3;
+    z-index:1;
+
 	width:100vw;
     height:100vh;
     background-image:linear-gradient(0deg, #9356DC 0%, #DDD5DD 49%, #FF79DA 100%);
@@ -12,14 +13,20 @@
    justify-content: center;
    align-items: center;
 
-   animation: slide 600ms forwards;
+   animation: fadeOut 700ms forwards;
    animation-delay: 3s;
 }
 
-@keyframes slide {
+@keyframes fadeOut {
+
+    0% {
+        visibility: visible;
+        opacity:1;
+    }
 	
 	100% {
 		opacity: 0;
+        visibility: hidden;
 	}
 }
 
@@ -62,7 +69,7 @@ h2::before {
 }
 
 .cssload-container{
-	position:relative;
+	position:absolute;
 
 
    
