@@ -204,18 +204,22 @@ body {
   }
 }
 .checked {
-  display: block;
   padding: 0 70px 0 70px;
   background-color: #416ce1;
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
   border: 2px solid #ff8800;
   transition: transform;
 }
 
 .menus__intitule:hover .boite {
-  transform: translateX(-15px);
+  transform: translateX(0%);
+}
+
+.menus__intitule:hover .checked {
+  display: unset;
 }
 
 .container {

@@ -63,22 +63,26 @@
 }
 
 .checked {
-      display: block;
+      
       padding:0 70px 0 70px;
       background-color: rgb(65, 108, 225);
       display: flex;
       justify-content: center;
       align-items: center;
+     display: none;
 
 
       border: 2px solid rgb(255, 136, 0);
 
-     
 
       transition: transform;
     
 }
 
 .menus__intitule:hover .boite {
-      transform:translateX(-15px);
+      transform:translateX(-0%);
+}
+
+.menus__intitule:hover .checked {
+      display:unset;
 }
