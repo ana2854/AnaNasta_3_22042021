@@ -37,7 +37,7 @@ padding: 8px 10px 70px 10px;
 
 .menus__entrees {
     
-    animation:animEntrees 3s;
+    animation:animEntrees 5s;
 
  
 }
@@ -58,7 +58,7 @@ padding: 8px 10px 70px 10px;
 
 
 .menus__plats {
-    animation: animPlats 5s;
+    animation: animPlats 8s;
    
 }
 
@@ -79,18 +79,23 @@ padding: 8px 10px 70px 10px;
 
 
 .menus__desserts {
- animation: anim-entrees 7s;
- animation: anim-up 7s;
+ animation: animDesserts 11s;
 }
 
-@keyframes anim-entrees {
+@keyframes animDesserts{
     0% {
         opacity: 0;
+        transform:translateY(5px)
     }
+  
     100% {
-        opacity: 100%;
+        opacity: 1;
+        transform: translateY(0);
     }
 }
+
+
+
 
 .menus__intitule {
 
