@@ -38,15 +38,11 @@ body {
   font-size: 15px;
 }
 
-.menus__intitule {
-  line-height: 20px;
+.menus__intitule, .p {
+  line-height: 14px;
 }
 
-.restaurants div > .p {
-  line-height: 5px;
-}
-
-.palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil, .presentation__titre {
+.palette-du-gout__titreAccueil, .note-enchantee__titreAccueil, .francaise__titreAccueil, .delice-des-sens__titreAccueil, .presentation__titre, .prix {
   font-weight: bold;
 }
 
@@ -57,10 +53,6 @@ body {
 
 .presentation p, .prix {
   font-size: smaller;
-}
-
-.prix {
-  font-weight: bold;
 }
 
 .accroche__bouton {
@@ -684,7 +676,11 @@ div > .p h4 {
   overflow: hidden;
 }
 
-.presentation, .prix {
+.presentation {
+  margin: 0 0 0 15px;
+}
+
+.prix {
   margin: 0 15px 0 5px;
 }
 
