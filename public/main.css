@@ -169,7 +169,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  width: 0;
+  width: 0px;
   float: none;
   transition: 1s;
 }
@@ -682,13 +682,11 @@ div > .p h4 {
 .boite {
   display: flex;
   flex-direction: row;
-  border: 0.5px solid fuchsia;
 }
 
 .prix {
   align-self: flex-end;
   margin-right: 4px;
-  border: 2px solid #1a1818;
 }
 
 /*# sourceMappingURL=main.css.map */
