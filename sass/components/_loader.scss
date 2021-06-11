@@ -15,6 +15,8 @@
 
    animation: fadeOut 700ms forwards;
    animation-delay: 2700ms;
+
+   
 }
 
 @keyframes fadeOut {
@@ -46,7 +48,7 @@ h2::before {
 	content:attr(data-text);
 	position:absolute;
 	top:5px;
-	left:0px;
+	left:3px;
 	width: 0%;
 	height: 100%;
 	color: rgb(1, 1, 14);
