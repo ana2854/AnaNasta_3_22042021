@@ -1,33 +1,4 @@
 
-      /*content:"\f058";
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      /*display: block;
-     
-      top:0;
-      right:0;
-      width: 10%;
-      height:100%;
-
-    
-      font-size: 30px;
-    
-      color:red;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-
-      background-color: $color-tertiary;
-      
-      position: absolute;
-      z-index: -1;*/
-
-
-
-
-
-                  /*transition: all 2s linear;*/
       
 .fa-check-circle {
       color:white;
@@ -35,18 +6,8 @@
       font-weight: 900;
       font-size: 30px;
       padding:10px;
-
-
-      border: 1px solid black;
-
-      
-      
      
 }
-
-
-
-
 
 .menus__intitule:hover .fa-check-circle {
     
@@ -71,15 +32,11 @@
       align-items: center;
       display: none;
 
-
-      border: 2px solid rgb(255, 136, 0);
-
-     
-      /*transition: transform 8s ease-in;*/
-     
+      border: 2px solid rgb(255, 136, 0); 
       
 }
 
+/*
 @keyframes right-to-left {
       0% {
             transform: translateX(100%)
@@ -87,15 +44,24 @@
       100% {
             transform:translateX(-0%);
       }
-}
+
+}*/
 
 
 .menus__intitule:hover .boite {
-      animation: right-to-left forwards;
-      animation-duration: 1s;
-
-} 
+      /*animation: right-to-left;
+      animation-duration: 1s; */
+     transform:translate(-200px,0px);
+    
+}
 
 .menus__intitule:hover .checked {
       display:unset;
+
 }
+
+.menus__intitule {
+      
+  transition:transform 1000s ease-in;
+  }
+
