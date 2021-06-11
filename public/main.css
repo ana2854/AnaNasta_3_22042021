@@ -493,6 +493,12 @@ nav {
   color: white;
   flex: 0.5%;
 }
+@media screen and (min-width: 1024px) {
+  .nav-chiffre {
+    width: 0.1%;
+    border-radius: 8px;
+  }
+}
 
 .nav-logo {
   text-align: center;
@@ -508,7 +514,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 0 15px 0;
-  padding: 10px 0 10px 0;
+  padding: 8px 0 8px 0;
   border-radius: 25px;
   background-color: #dad0d0;
   position: relative;
@@ -518,6 +524,7 @@ nav {
 @media screen and (min-width: 1024px) {
   .nav__choisir, .nav__composer, .nav__deguster {
     margin: 0 0 25px 0;
+    padding: 10px 0 10px 0;
   }
 }
 .nav__choisir:hover, .nav__composer:hover, .nav__deguster:hover {
@@ -596,6 +603,7 @@ div > .p h4 {
 @media screen and (min-width: 1024px) {
   .menus {
     padding: 10px 150px 70px 150px;
+    margin: 0 50px 0 50px 0;
   }
 }
 
