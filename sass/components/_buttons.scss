@@ -12,7 +12,7 @@
           border:$color-primary;
     }
     &--active:hover {
-       @include curseur;
+       cursor: pointer;
        @include lighten-color;
         @include box-shadow;
     }
