@@ -31,7 +31,11 @@ body {
 
 .nom-restaurant {
   font-family: "Shrikhand", cursive;
-  font-size: 5vmin;
+  font-size: 25px;
+}
+
+.menus-section-titre {
+  font-size: 15px;
 }
 
 .menus__intitule {
@@ -171,7 +175,7 @@ body {
   overflow: hidden;
   width: 0px;
   float: none;
-  transition: 1s;
+  transition: 900ms;
 }
 
 .menus__intitule:hover .fa-check-circle {
@@ -187,7 +191,7 @@ body {
   }
 }
 .menus__intitule:hover .checked {
-  transition: 1s;
+  transition: 900ms;
   width: 100px;
   transition-timing-function: ease-out;
 }
@@ -589,7 +593,7 @@ div > .p h4 {
 }
 @media screen and (min-width: 1024px) {
   .menus {
-    padding: 10px 90px 70px 90px;
+    padding: 10px 100px 70px 100px;
   }
 }
 
@@ -677,6 +681,10 @@ div > .p h4 {
 
 .presentation, .prix {
   margin: 0 15px 0 5px;
+}
+
+.prix {
+  padding: 0 15px 0 0;
 }
 
 .boite {
