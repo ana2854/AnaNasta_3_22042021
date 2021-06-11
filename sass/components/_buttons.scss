@@ -12,6 +12,7 @@
           border:$color-primary;
     }
     &--active:hover {
+       @include curseur;
        @include lighten-color;
         @include box-shadow;
     }
@@ -35,6 +36,7 @@
         
     
     &--outline:hover {
+        cursor: pointer;
         @include lighten-color;
         @include box-shadow;
 
@@ -69,6 +71,7 @@
        
        
         &:hover {
+            cursor: pointer;
             opacity: 1;
             transform: scale(1.2,1.2);
             
@@ -99,6 +102,7 @@
         opacity: 0;
         transition-duration: 900ms;
         &:hover {
+            cursor: pointer;
             opacity: 1;
             transform: scale(1.1,1.1);
         }

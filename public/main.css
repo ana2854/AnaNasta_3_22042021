@@ -76,6 +76,7 @@ body {
   border: #9356DC;
 }
 .accroche__bouton--active:hover {
+  cursor: pointer;
   background: #9356DC;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
@@ -94,6 +95,7 @@ body {
   border: 1px solid #9356DC;
 }
 .btn-commander--outline:hover {
+  cursor: pointer;
   background: #9356DC;
   background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
@@ -119,6 +121,7 @@ body {
   opacity: 0;
 }
 .btn-fav--active:hover {
+  cursor: pointer;
   opacity: 1;
   transform: scale(1.2, 1.2);
 }
@@ -142,6 +145,7 @@ body {
   transition-duration: 900ms;
 }
 .btn-accueil--active:hover {
+  cursor: pointer;
   opacity: 1;
   transform: scale(1.1, 1.1);
 }
@@ -191,6 +195,7 @@ body {
   }
 }
 .menus__intitule:hover .checked {
+  cursor: pointer;
   transition: 900ms;
   width: 100px;
   transition-timing-function: ease-out;

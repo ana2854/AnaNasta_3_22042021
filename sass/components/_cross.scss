@@ -48,10 +48,12 @@
 }
 
 .menus__intitule:hover .checked {
-    
+      cursor: pointer;
       transition: 900ms;
       width: 100px;
       transition-timing-function: ease-out;
 
 }
+
+
 
