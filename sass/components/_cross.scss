@@ -5,8 +5,32 @@
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       font-size: 30px;
-      padding:10px;
+      
+
      
+}
+
+/*debut animation logo*/
+
+.checked {
+      
+     
+     
+      background-color: $color-tertiary;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+     
+     
+      width: 0;
+      float: none;
+
+      transition: 1s;
+
+      
 }
 
 .menus__intitule:hover .fa-check-circle {
@@ -19,49 +43,15 @@
             transform: rotate(0deg);
       }
       to {
-            transform: rotate(360deg);
+            transform: rotate(365deg);
       }
-}
-
-.checked {
-      
-      padding:15px 50px 0 50px;
-      background-color: $color-tertiary;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      display: none;
-
-      border: 2px solid rgb(255, 136, 0); 
-      
-}
-
-/*
-@keyframes right-to-left {
-      0% {
-            transform: translateX(100%)
-      }
-      100% {
-            transform:translateX(-0%);
-      }
-
-}*/
-
-
-.menus__intitule:hover .boite {
-      /*animation: right-to-left;
-      animation-duration: 1s; */
-     transform:translate(-200px,0px);
-    
 }
 
 .menus__intitule:hover .checked {
-      display:unset;
+    
+      transition: 1s;
+      width: 100px;
+      transition-timing-function: ease-out;
 
 }
-
-.menus__intitule {
-      
-  transition:transform 1000s ease-in;
-  }
 

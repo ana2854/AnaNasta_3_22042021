@@ -159,7 +159,19 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 30px;
-  padding: 10px;
+}
+
+/*debut animation logo*/
+.checked {
+  background-color: #99E2D0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 0;
+  float: none;
+  transition: 1s;
 }
 
 .menus__intitule:hover .fa-check-circle {
@@ -171,41 +183,13 @@ body {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(365deg);
   }
 }
-.checked {
-  padding: 15px 50px 0 50px;
-  background-color: #99E2D0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  border: 2px solid #ff8800;
-}
-
-/*
-@keyframes right-to-left {
-      0% {
-            transform: translateX(100%)
-      }
-      100% {
-            transform:translateX(-0%);
-      }
-
-}*/
-.menus__intitule:hover .boite {
-  /*animation: right-to-left;
-  animation-duration: 1s; */
-  transform: translate(-200px, 0px);
-}
-
 .menus__intitule:hover .checked {
-  display: unset;
-}
-
-.menus__intitule {
-  transition: transform 1000s ease-in;
+  transition: 1s;
+  width: 100px;
+  transition-timing-function: ease-out;
 }
 
 .container {
@@ -250,7 +234,7 @@ h2::before {
   color: #01010e;
   -webkit-text-stroke: 1px #01010f;
   overflow: hidden;
-  animation: animLettre 3900ms linear forwards;
+  animation: animLettre 3700ms linear forwards;
 }
 
 @keyframes animLettre {
@@ -299,7 +283,7 @@ h2::before {
   margin: -135px 0 0 -135px;
   height: 259px;
   width: 259px;
-  animation: cssload-rotate 4850ms linear infinite;
+  animation: cssload-rotate 4850ms linear backwards;
   -o-animation: cssload-rotate 4850ms linear infinite;
   -ms-animation: cssload-rotate 4850ms linear infinite;
   -webkit-animation: cssload-rotate 4850ms linear infinite;
@@ -677,7 +661,6 @@ div > .p h4 {
   padding: 0px;
   box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
   position: relative;
-  z-index: 1;
   overflow: hidden;
 }
 

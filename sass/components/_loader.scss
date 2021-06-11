@@ -52,7 +52,7 @@ h2::before {
 	color: rgb(1, 1, 14);
 	-webkit-text-stroke: 1px rgb(1, 1, 15);
 	overflow: hidden;
-	animation: animLettre 3900ms linear forwards;
+	animation: animLettre 3700ms linear forwards;
 
 }
 
@@ -108,7 +108,7 @@ h2::before {
 	margin: -135px 0 0 -135px;
 	height: 259px;
 	width: 259px;
-	animation: cssload-rotate 4850ms linear infinite;
+	animation: cssload-rotate 4850ms linear backwards;
 		-o-animation: cssload-rotate 4850ms linear infinite;
 		-ms-animation: cssload-rotate 4850ms linear infinite;
 		-webkit-animation: cssload-rotate 4850ms linear infinite;
@@ -125,6 +125,7 @@ h2::before {
 		-ms-animation: cssload-rotate 8700ms linear infinite;
 		-webkit-animation: cssload-rotate 8700ms linear infinite;
 		-moz-animation: cssload-rotate 8700ms linear infinite;
+	
 }
 
 
