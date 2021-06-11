@@ -32,11 +32,12 @@ header img {
 }
 
 
-.headerA__map > input {
-    border: transparent;
-    background-color: transparent;
+.headerA__map > input[type="text"] {
+    border:none;
+    background: transparent;
+    outline: none;
     padding: 0 0 0 15px;
-    color: black;
+    
 
 }
 
