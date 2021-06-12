@@ -113,7 +113,6 @@ body {
   padding: 8px;
   color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
   -moz-background-clip: text;
   transition-duration: 900ms;
   opacity: 0;
