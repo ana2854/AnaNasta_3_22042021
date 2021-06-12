@@ -100,13 +100,15 @@ body {
 .btn-fav {
   align-self: center;
   position: absolute;
+  z-index: 0;
   right: 15px;
   font-size: 24px;
 }
 .btn-fav--active {
   align-self: center;
-  position: relative;
+  position: absolute;
   right: 6px;
+  z-index: 1;
   background: linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
   padding: 8px;
   color: transparent;
@@ -133,13 +135,11 @@ body {
   z-index: 1;
   right: 7px;
   bottom: 17px;
-  background: linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
+  background: -webkit-linear-gradient(45deg, #9356DC 0%, #FF79DA 100%);
   color: transparent;
   padding: 8px;
   -webkit-background-clip: text;
-  background-clip: text;
-  -moz-background-clip: text;
-  opacity: 0;
+  opacity: 1;
   transition-duration: 900ms;
 }
 .btn-accueil--active:hover {
@@ -604,7 +604,7 @@ div > .p h4 {
 @media screen and (min-width: 1024px) {
   .menus {
     padding: 10px 250px 70px 250px;
-    margin: 0 50px 0 50px 0;
+    margin: 0 50px 0 50px;
   }
 }
 
