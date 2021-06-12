@@ -347,8 +347,8 @@ header img {
 
 .headerA__logoOMF {
   background-color: white;
-  padding: 12px;
-  box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+  padding: 12px 0 12px 0;
+  box-shadow: 0px 8px 0px -1px rgba(0, 0, 0, 0.29);
 }
 
 .headerA__map {
@@ -387,7 +387,7 @@ header img {
   align-items: center;
   background-color: white;
   padding-left: 5px;
-  box-shadow: 0px 9px 0px -1px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 8px 0px -1px rgba(0, 0, 0, 0.29);
 }
 
 aside {

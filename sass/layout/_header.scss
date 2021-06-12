@@ -16,7 +16,8 @@ header img {
 .headerA__logoOMF {
    
     background-color:white;
-    padding: 12px;
+    padding: 12px 0 12px 0;
+
 
     @include logo-shadow;
        
