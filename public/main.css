@@ -408,6 +408,7 @@ aside {
     top: 50px;
     width: 50%;
     height: 100%;
+    filter: opacity(70%);
   }
 }
 
