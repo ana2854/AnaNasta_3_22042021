@@ -68,25 +68,18 @@
     
         -webkit-background-clip: text;
        -moz-background-clip: text;
-        transition-duration: 900ms;
+        transition-duration: 940ms;
         opacity: 0;
-      
-       
        
         &:hover {
             cursor: pointer;
             opacity: 1;
             transform: scale(1.2,1.2);
             
-           
-            
         }
     }
 
 }
-
-
-
 
 
 .btn-accueil {
@@ -105,7 +98,7 @@
         padding:8px;
         -webkit-background-clip: text;
 
-        opacity: 1;
+        opacity: 0;
         transition-duration: 900ms;
         &:hover {
             cursor: pointer;

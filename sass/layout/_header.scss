@@ -25,7 +25,7 @@ header img {
 
 .headerA__map {
     flex: 100%;
-    background-color: rgb(165, 154, 154);
+    background-color:$color-map;
 }
 
 .headerA__map > .fa-map-marker-alt {
@@ -43,7 +43,7 @@ header img {
 }
 
 ::placeholder {
-    background-color: rgb(165, 154, 154);
+    background-color: $color-map;
     padding: 0 0 0 15px;
     color:black;
     font-weight: bold;
