@@ -25,6 +25,8 @@
         position: sticky;
         top:40px;
         z-index: -1;
+    
+      
 
     }
     
@@ -34,6 +36,14 @@
         object-fit: cover;
         width: 100%;
         height: 300px;
+        @include ecran-large {
+            position: fixed;
+            right: 0;
+            top:50px;
+            width: 50%;
+            height: 100%;
+        }
+       
 
     }
 

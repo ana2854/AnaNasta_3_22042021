@@ -37,11 +37,14 @@
       
     }
 
-    .footer-accueil, .footer-menus {
+    .footer-accueil,.footer-menus {
     
         background-color: rgba(51, 48, 48, 0.918);
         color: white;
         padding: 5px 10px 25px 15px;
+    }
+
+    .footer-menus {
 
         @include ecran-large {
             display: flex;
@@ -52,3 +55,4 @@
    
     }
 
+    
