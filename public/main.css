@@ -73,7 +73,7 @@ body {
 .accroche__bouton--active:hover {
   cursor: pointer;
   filter: brightness(110%);
-  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+  box-shadow: 11px 14px 5px -8px rgba(0, 0, 0, 0.54);
 }
 
 .btn-commander {
@@ -85,11 +85,12 @@ body {
   color: white;
 }
 .btn-commander--outline {
-  border: 1px solid #9356DC;
+  border: 1px solid transparent;
 }
 .btn-commander--outline:hover {
   cursor: pointer;
-  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
+  box-shadow: 11px 14px 5px -8px rgba(0, 0, 0, 0.54);
+  filter: brightness(110%);
 }
 
 .btn-fav {
@@ -466,9 +467,19 @@ footer img {
 }
 
 @media screen and (min-width: 1024px) {
+  .footer-accueil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .footer-menus {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
     line-height: 4px;
   }

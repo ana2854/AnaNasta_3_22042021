@@ -14,7 +14,7 @@
     &--active:hover {
        cursor: pointer;
         filter: brightness(110%);
-        @include box-shadow;
+        @include nav-shadow;
     }
     
 }
@@ -29,13 +29,14 @@
     border-radius: 40px;
     color:white;
         &--outline {
-        border: 1px solid $color-primary;
+        border: 1px solid transparent;
         }
         
     
     &--outline:hover {
         cursor: pointer;
-        @include box-shadow;
+        @include nav-shadow;
+        filter: brightness(110%);
 
     }
    

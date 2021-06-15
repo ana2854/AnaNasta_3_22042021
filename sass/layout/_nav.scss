@@ -76,13 +76,14 @@
 
         position: relative;
         left:8px;
-
+        @include nav-shadow;
             
         
-            @include nav-shadow;
+            
         
         &:hover {
             background-color:rgb(233, 198, 253);
+            
         }
       
     }
