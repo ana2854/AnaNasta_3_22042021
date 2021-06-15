@@ -48,11 +48,17 @@
 
         @include ecran-large {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
-            justify-content: space-around;
+            line-height: 4px;
         }
    
+    }
+
+    .footer-menus p {
+        @include ecran-large {
+        line-height: 1px;
+    }
     }
 
     
