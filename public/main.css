@@ -628,10 +628,15 @@ div > .p h4 {
   justify-content: space-around;
   padding: 8px 10px 70px 10px;
 }
+@media screen and (min-width: 1024px) {
+  .menus {
+    padding: 10px 30px 70px 30px;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .large-screen {
-    padding: 10px 200px 70px 200px;
+    padding: 10px 100px 70px 100px;
     width: 40%;
     position: absolute;
     top: 50px;
