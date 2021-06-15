@@ -578,10 +578,20 @@ nav {
 @media screen and (min-width: 1024px) {
   .restaurants img {
     height: 200px;
+    width: 100%;
   }
 }
 
+.restaurants a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .palette-du-gout, .note-enchantee, .francaise, .delice-des-sens {
+  position: relative;
   background-color: white;
   border-radius: 15px;
   margin: 0 0 12px 0;
