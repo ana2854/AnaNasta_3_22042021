@@ -13,7 +13,7 @@
     }
     &--active:hover {
        cursor: pointer;
-        filter: brightness(110%);
+        filter: brightness(115%);
         @include nav-shadow;
     }
     
@@ -36,7 +36,7 @@
     &--outline:hover {
         cursor: pointer;
         @include nav-shadow;
-        filter: brightness(110%);
+        filter: brightness(115%);
 
     }
    
