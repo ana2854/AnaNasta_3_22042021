@@ -9,11 +9,11 @@
     margin: 15px 0 25px 0;
     
     &--outline {
-          border:$color-primary;
+          border:0.5px solid transparent;
     }
     &--active:hover {
        cursor: pointer;
-        filter: brightness(115%);
+        filter: brightness(120%);
         @include nav-shadow;
     }
     
@@ -29,14 +29,14 @@
     border-radius: 40px;
     color:white;
         &--outline {
-        border: 1px solid transparent;
+        border: 0.5px solid transparent;
         }
         
     
     &--outline:hover {
         cursor: pointer;
         @include nav-shadow;
-        filter: brightness(115%);
+        filter: brightness(120%);
 
     }
    
