@@ -1,59 +1,43 @@
-
-      
 .fa-check-circle {
-      color:white;
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      font-size: 25px;
-      
-
-     
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
 }
 
 /*debut animation logo*/
 
 .checked {
-      
-     
-     
-      background-color: $color-tertiary;
+  background-color: $color-tertiary;
 
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-     
-     
-      width: 0px;
-      float: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 
-      transition: 900ms;
+  width: 0px;
+  float: none;
 
-      
+  transition: 900ms;
 }
 
 .menus__intitule:hover .fa-check-circle {
-    
-     animation: rotate 1s;
+  animation: rotate 1s;
 }
 
 @keyframes rotate {
-      from {
-            transform: rotate(0deg);
-      }
-      to {
-            transform: rotate(365deg);
-      }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(365deg);
+  }
 }
 
 .menus__intitule:hover .checked {
-      cursor: pointer;
-      transition: 900ms;
-      width: 100px;
-      transition-timing-function: ease-out;
-
+  cursor: pointer;
+  transition: 900ms;
+  width: 100px;
+  transition-timing-function: ease-out;
 }
-
-
-

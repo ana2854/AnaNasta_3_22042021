@@ -1,80 +1,55 @@
-    .headerMenus {
-    position: fixed;
-    width: 100%;
-    top:0px;
-    z-index: 2;
-    }
-  
-    
-    .headerMenus__top {
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color: white;
-
-        padding-left: 5px;
-
-    
-
-        @include logo-shadow;
-
-    }
-
-    aside{
-        position: sticky;
-        top:40px;
-        z-index: -1;
-    
-      
-
-    }
-    
-
-    
-    .menus-photo img {
-        object-fit: cover;
-        width: 100%;
-        height: 300px;
-        @include ecran-large {
-            position: fixed;
-            right: 0;
-            top:50px;
-            width: 50%;
-            height: 100%;
-            filter: opacity(70%);
-          
-        }
-    }
-
-    
-
-    .fa-arrow-left {
-        color:black;
-        width: 5%;
-    }
-
-   
-
-    .headerM__logoOMF {
-  
-   text-align: center;
-
-   flex:80%;
-
-
-    
+.headerMenus {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
 }
 
-    .headerM__logoOMF>img {
-       
-        padding: 7px 7px;
+.headerMenus__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
 
-       width: auto;
-       height: auto;
+  padding-left: 5px;
 
-       
+  @include logo-shadow;
+}
 
-    }
+aside {
+  position: sticky;
+  top: 40px;
+  z-index: -1;
+}
 
-   
+.menus-photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  @include ecran-large {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 50%;
+    height: 100%;
+    filter: opacity(70%);
+  }
+}
+
+.fa-arrow-left {
+  color: black;
+  width: 5%;
+}
+
+.headerM__logoOMF {
+  text-align: center;
+
+  flex: 80%;
+}
+
+.headerM__logoOMF > img {
+  padding: 7px 7px;
+
+  width: auto;
+  height: auto;
+}

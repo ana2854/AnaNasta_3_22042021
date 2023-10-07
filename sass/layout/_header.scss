@@ -1,56 +1,42 @@
-.headerAccueil{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    text-align: center;
+.headerAccueil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  text-align: center;
 }
 
-
 header img {
-     width:auto;
-     height: auto;
+  width: auto;
+  height: auto;
 }
 
 .headerA__logoOMF {
-   
-    background-color:white;
-    padding: 12px 0 12px 0;
+  background-color: white;
+  padding: 12px 0 12px 0;
 
-
-    @include logo-shadow;
-       
+  @include logo-shadow;
 }
 
 .headerA__map {
-    flex: 100%;
-    background-color:$color-map;
+  flex: 100%;
+  background-color: $color-map;
 }
 
 .headerA__map > .fa-map-marker-alt {
-    padding: 10px;
+  padding: 10px;
 }
 
-
 .headerA__map > input[type="text"] {
-    border:none;
-    background: transparent;
-    outline: none;
-    padding: 0 0 0 15px;
-    
-
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0 0 0 15px;
 }
 
 ::placeholder {
-    background-color: $color-map;
-    padding: 0 0 0 15px;
-    color:black;
-    font-weight: bold;
-
+  background-color: $color-map;
+  padding: 0 0 0 15px;
+  color: black;
+  font-weight: bold;
 }
-
-
-
-
-    

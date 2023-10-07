@@ -1,32 +1,29 @@
 @mixin logo-shadow {
-    box-shadow: 0px 8px 0px -1px rgba(0,0,0,0.29);
+  box-shadow: 0px 8px 0px -1px rgba(0, 0, 0, 0.29);
 }
 
-
 @mixin nav-shadow {
-    box-shadow: 11px 14px 5px -8px  rgba(0,0,0,0.54);
-   }
-
+  box-shadow: 11px 14px 5px -8px rgba(0, 0, 0, 0.54);
+}
 
 @mixin box-shadow {
-    box-shadow: 0px 4px 11px 6px rgba(0,0,0,0.47);
+  box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.47);
 }
 
 @mixin lighten-color {
-    background: $color-primary;
-    background: linear-gradient(0deg,$color-primary 0%,$color-secondary 100%);
+  background: $color-primary;
+  background: linear-gradient(0deg, $color-primary 0%, $color-secondary 100%);
 }
 
 @mixin gradient {
-    background: linear-gradient(0deg, $color-primary 0%, $color-secondary 100%)
+  background: linear-gradient(0deg, $color-primary 0%, $color-secondary 100%);
 }
 
-$breakpoints: (ecran-large:1025px);
+$breakpoints: (
+  ecran-large: 1025px,
+);
 @mixin ecran-large {
-    @media screen and (min-width:map-get($breakpoints, ecran-large)) {
-        @content;
-    }
+  @media screen and (min-width: map-get($breakpoints, ecran-large)) {
+    @content;
+  }
 }
-
-
-

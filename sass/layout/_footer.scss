@@ -1,75 +1,64 @@
+footer img {
+  width: auto;
+  height: auto;
+  padding: 15px 0 0 0;
+  @include ecran-large {
+    padding: 25px 0 15px 0;
+  }
+}
 
+.footer__logo {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg)
+    brightness(104%) contrast(104%);
+  @include ecran-large {
+    flex: 100%;
+    text-align: center;
+  }
+}
 
-    
-    footer img {
-        width: auto;
-        height: auto;
-        padding: 15px 0 0 0;
-        @include ecran-large {
-            padding: 25px 0 15px 0;
-          
-        }
-        
-    }
+.fa-utensils {
+  margin: 0 12px 0 0;
+  font-size: 10px;
+}
 
-    .footer__logo {
-        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
-        @include ecran-large {
-            flex:100%;
-            text-align: center;
-        }
-    }
+.fa-hands-helping {
+  font-size: 9px;
+  margin: 0 8px 0 0;
+}
 
-    .fa-utensils {
-        margin: 0 12px 0 0;
-        font-size: 10px;
-        
-    }
+.contact a {
+  text-decoration: none;
+  color: white;
+}
 
-    .fa-hands-helping {
+.footer-accueil,
+.footer-menus {
+  background-color: rgba(51, 48, 48, 0.918);
+  color: white;
+  padding: 5px 10px 25px 15px;
+}
 
-        font-size: 9px;
-        margin:0 8px 0 0;
-    }
+.footer-accueil {
+  @include ecran-large {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
 
-    .contact a{
-        text-decoration:none;
-        color:white;
-      
-    }
+.footer-menus {
+  @include ecran-large {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 4px;
+  }
+}
 
-    .footer-accueil,.footer-menus {
-    
-        background-color: rgba(51, 48, 48, 0.918);
-        color: white;
-        padding: 5px 10px 25px 15px;
-    }
-
-    .footer-accueil {
-        @include ecran-large {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-    }
-
-    .footer-menus {
-
-        @include ecran-large {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            line-height: 4px;
-        }
-   
-    }
-
-    .footer-menus p {
-        @include ecran-large {
-        line-height: 1px;
-    }
-    }
-
-    
+.footer-menus p {
+  @include ecran-large {
+    line-height: 1px;
+  }
+}

@@ -1,89 +1,66 @@
+nav {
+  background-color: white;
+  padding: 25px 25px 25px 15px;
 
-    nav {
-        background-color: white;
-        padding: 25px 25px 25px 15px;
+  @include ecran-large {
+    padding: 25px 400px 25px 400px;
+    margin: 0 150px 30px 150px;
+  }
+}
 
-        @include ecran-large {
-            padding: 25px 400px 25px 400px;
-            margin: 0 150px 30px 150px;
-            
-            }
+.nav-p {
+  flex: 70%;
+}
 
-        }
-           
-    
+.nav-chiffre {
+  position: relative;
+  right: 8px;
+  margin-right: 5px;
 
-    .nav-p{
-        
-        flex:70%;
+  border-radius: 12px;
 
-        
-    }
+  text-align: center;
+  padding: 4px 0.5% 4px 0.5%;
 
-    
+  background-color: $color-primary;
+  color: white;
 
-    .nav-chiffre {
+  flex: 0.5%;
 
-        position: relative;
-        right:8px;
-        margin-right: 5px;
+  @include ecran-large {
+    width: 7px;
+    border-radius: 40%;
+  }
+}
 
-        border-radius: 12px;
+.nav-logo {
+  text-align: center;
+  margin-right: 10px;
+  flex: 7%;
 
-        text-align: center;
-        padding:4px 0.5% 4px 0.5%;
-      
-        background-color:$color-primary;
-        color:white;
+  &:hover {
+    color: $color-primary;
+  }
+}
 
-        flex:0.5%;
+.nav__choisir,
+.nav__composer,
+.nav__deguster {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 
-        @include ecran-large {
-            width:7px;
-            border-radius: 40%;
-        }
+  margin: 0 0 15px 0;
+  padding: 8px 0 8px 0;
 
+  border-radius: 25px;
+  background-color: $color-background;
 
+  position: relative;
+  left: 8px;
+  @include nav-shadow;
 
-    }
-
-    .nav-logo {
-        text-align: center;
-        margin-right: 10px;
-        flex:7%;
-
-       
-        &:hover {
-            color:$color-primary;
-        }
-    }
-
-    
-
-    
-
-    .nav__choisir, .nav__composer, .nav__deguster {
-
-       display: flex;
-       align-items: center;
-       flex-wrap: wrap;
-
-        margin: 0 0 15px 0;
-        padding:8px 0 8px 0;
-    
-        border-radius: 25px;
-        background-color:$color-background;
-
-        position: relative;
-        left:8px;
-        @include nav-shadow;
-            
-        
-            
-        
-        &:hover {
-            background-color:rgb(233, 198, 253);
-            
-        }
-      
-    }
+  &:hover {
+    background-color: rgb(233, 198, 253);
+  }
+}
